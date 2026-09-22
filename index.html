@@ -139,7 +139,18 @@
             </h2>
             <div class="projects-grid">
 
-                <!-- CARD 1: Deloitte -->
+                <!-- CARD 1: Customer Churn (NEW) -->
+                <div class="project-card" data-aos="flip-up" data-aos-delay="50" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare="true" data-tilt-glare-max="0.15">
+                    <div class="icon"><span class="iconify icon-lg" data-icon="iconsax:chart-square-outline"></span></div>
+                    <h3>Customer Churn &amp; Retention Analysis</h3>
+                    <div class="meta">Python · Pandas · Power BI · Git</div>
+                    <p>Analysed 779,425 retail transactions from 5,878 customers across 24 months. Built RFM segmentation identifying that Champions (22% of customers) drive 68% of revenue. Cohort analysis revealed Month-1 retention of 21.2% and flagged £1.09M in At-Risk revenue.</p>
+                    <button class="card-btn" onclick="openModal('churnModal')">
+                        <span class="iconify icon-sm" data-icon="iconsax:eye-outline"></span> View Case Study
+                    </button>
+                </div>
+
+                <!-- CARD 2: Deloitte -->
                 <div class="project-card" data-aos="flip-up" data-aos-delay="100" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare="true" data-tilt-glare-max="0.15">
                     <div class="icon"><span class="iconify icon-lg" data-icon="iconsax:briefcase-outline"></span></div>
                     <h3>Deloitte – Data Analytics</h3>
@@ -150,38 +161,38 @@
                     </button>
                 </div>
 
-               <!-- CARD 2: JPMorgan  -->
+                <!-- CARD 3: JPMorgan -->
                 <div class="project-card" data-aos="flip-up" data-aos-delay="200" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare="true" data-tilt-glare-max="0.15">
-                       <div class="icon"><span class="iconify icon-lg" data-icon="iconsax:bank-outline"></span></div>
-                        <h3>JPMorgan – Quantitative Research</h3>
-                         <div class="meta">Python · Machine Learning · Financial Modeling</div>
-                        <p>Built a natural gas price forecaster, valued storage contracts, and developed a credit risk model (Random Forest) to predict loan default probability and expected loss.</p>
-                          <button class="card-btn" onclick="openModal('jpmorganModal')">
-                     <span class="iconify icon-sm" data-icon="iconsax:eye-outline"></span> View Case Study
-                  </button>
-                   </div>
-
-                <<!-- CARD 3: British Airways -->
-                <div class="project-card" data-aos="flip-up" data-aos-delay="400" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare="true" data-tilt-glare-max="0.15">
-                     <div class="icon"><span class="iconify icon-lg" data-icon="iconsax:airplane-outline"></span></div>
-                     <h3>British Airways – Data Science</h3>
-                      <div class="meta">Python · Classification · Customer Analytics</div>
-                      <p>Built models to predict lounge eligibility at Heathrow Terminal 3 and forecast customer buying behaviour, helping BA personalise offers and improve customer experience.</p>
-                      <button class="card-btn" onclick="openModal('airwaysModal')">
-                 <span class="iconify icon-sm" data-icon="iconsax:eye-outline"></span> View Case Study
-             </button>
-            </div>
-                  <!-- CARD 4: Tata Group -->
-                <div class="project-card" data-aos="flip-up" data-aos-delay="400" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare="true" data-tilt-glare-max="0.15">
-                        <div class="icon"><span class="iconify icon-lg" data-icon="iconsax:bank-outline"></span></div>
-                         <h3>Tata Group – AI Collections Strategy</h3>
-                        <div class="meta">Python · Logistic Regression · Responsible AI</div>
-                        <p>Designed an AI-driven debt collections strategy using predictive analytics, reducing predicted delinquency by 15% while ensuring GDPR/ECOA compliance and fairness.</p>
-                         <button class="card-btn" onclick="openModal('tataModal')">
+                    <div class="icon"><span class="iconify icon-lg" data-icon="iconsax:bank-outline"></span></div>
+                    <h3>JPMorgan – Quantitative Research</h3>
+                    <div class="meta">Python · Machine Learning · Financial Modeling</div>
+                    <p>Built a natural gas price forecaster, valued storage contracts, and developed a credit risk model (Random Forest) to predict loan default probability and expected loss.</p>
+                    <button class="card-btn" onclick="openModal('jpmorganModal')">
                         <span class="iconify icon-sm" data-icon="iconsax:eye-outline"></span> View Case Study
-                        </button>
-                    </div> 
+                    </button>
+                </div>
 
+                <!-- CARD 4: British Airways -->
+                <div class="project-card" data-aos="flip-up" data-aos-delay="300" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare="true" data-tilt-glare-max="0.15">
+                    <div class="icon"><span class="iconify icon-lg" data-icon="iconsax:airplane-outline"></span></div>
+                    <h3>British Airways – Data Science</h3>
+                    <div class="meta">Python · Classification · Customer Analytics</div>
+                    <p>Built models to predict lounge eligibility at Heathrow Terminal 3 and forecast customer buying behaviour, helping BA personalise offers and improve customer experience.</p>
+                    <button class="card-btn" onclick="openModal('airwaysModal')">
+                        <span class="iconify icon-sm" data-icon="iconsax:eye-outline"></span> View Case Study
+                    </button>
+                </div>
+
+                <!-- CARD 5: Tata Group -->
+                <div class="project-card" data-aos="flip-up" data-aos-delay="400" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare="true" data-tilt-glare-max="0.15">
+                    <div class="icon"><span class="iconify icon-lg" data-icon="iconsax:bank-outline"></span></div>
+                    <h3>Tata Group – AI Collections Strategy</h3>
+                    <div class="meta">Python · Logistic Regression · Responsible AI</div>
+                    <p>Designed an AI-driven debt collections strategy using predictive analytics, reducing predicted delinquency by 15% while ensuring GDPR/ECOA compliance and fairness.</p>
+                    <button class="card-btn" onclick="openModal('tataModal')">
+                        <span class="iconify icon-sm" data-icon="iconsax:eye-outline"></span> View Case Study
+                    </button>
+                </div>
 
             </div>
         </div>
@@ -321,6 +332,114 @@
     </section>
 
     <!-- ========================================================== -->
+    <!-- MODAL – CUSTOMER CHURN & RETENTION ANALYSIS                 -->
+    <!-- ========================================================== -->
+    <div id="churnModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('churnModal')">&times;</span>
+
+            <h2> Customer Churn &amp; Retention Analysis</h2>
+            <div class="sub">Personal Project · September 2026</div>
+
+            <hr />
+
+            <!-- Quick Stats -->
+            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap:12px; margin-bottom:20px;">
+                <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
+                    <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">779K</div>
+                    <div style="font-size:0.7rem; color:#64748b;">Transactions</div>
+                </div>
+                <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
+                    <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">5,878</div>
+                    <div style="font-size:0.7rem; color:#64748b;">Customers</div>
+                </div>
+                <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
+                    <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">68%</div>
+                    <div style="font-size:0.7rem; color:#64748b;">Revenue from Champions</div>
+                </div>
+                <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
+                    <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">£1.09M</div>
+                    <div style="font-size:0.7rem; color:#64748b;">At-Risk Revenue</div>
+                </div>
+            </div>
+
+            <h3 style="color:#0f172a;">Business Question</h3>
+            <p style="color:#334155;">Which customer segments drive revenue, and where is revenue at risk?</p>
+
+            <hr />
+
+            <h3 style="color:#0f172a;">Approach</h3>
+            <ul style="color:#334155;">
+                <li><strong>Data Cleaning (Python):</strong> Removed cancelled orders, returns, non-positive quantities and prices, duplicates and missing customer IDs — 1,067,371 raw rows → 779,425 clean rows.</li>
+                <li><strong>RFM Segmentation:</strong> Scored each customer 1–5 on Recency, Frequency and Monetary value. Segmented into Champions, Loyal, At Risk, New, Lost, Others.</li>
+                <li><strong>Cohort Retention:</strong> Grouped customers by first-purchase month and tracked month-over-month retention.</li>
+                <li><strong>Power BI Dashboard:</strong> Built 5 visuals — KPI cards, revenue by segment, customer count by segment, revenue over time and a cohort retention heatmap.</li>
+            </ul>
+
+            <hr />
+
+            <h3 style="color:#0f172a;">Key Findings</h3>
+            <div style="display:grid; grid-template-columns:1fr; gap:12px;">
+                <div style="background:#f8fafc; padding:12px 16px; border-radius:12px; border-left:4px solid #f59e0b;">
+                    <strong style="font-size:0.9rem;">Champions drive 68% of revenue</strong>
+                    <p style="font-size:0.85rem; color:#475569; margin:4px 0 0;">Despite being only 22% of customers — extreme revenue concentration.</p>
+                </div>
+                <div style="background:#f8fafc; padding:12px 16px; border-radius:12px; border-left:4px solid #ef4444;">
+                    <strong style="font-size:0.9rem;">£1.09M in At-Risk revenue</strong>
+                    <p style="font-size:0.85rem; color:#475569; margin:4px 0 0;">353 high-value customers (£3,089 average each) showing declining engagement.</p>
+                </div>
+                <div style="background:#f8fafc; padding:12px 16px; border-radius:12px; border-left:4px solid #3b82f6;">
+                    <strong style="font-size:0.9rem;">Retention is declining in newer cohorts</strong>
+                    <p style="font-size:0.85rem; color:#475569; margin:4px 0 0;">Month-1 retention fell from 35% (Dec 2009) to 17% (mid-2010) — acquisition quality is deteriorating.</p>
+                </div>
+            </div>
+
+            <hr />
+
+            <h3 style="color:#0f172a;">Recommendations</h3>
+            <ol style="color:#334155;">
+                <li><strong>Protect Champions</strong> — introduce loyalty tiering, early access and dedicated account management for the 1,297 customers driving 68% of revenue.</li>
+                <li><strong>Reactivate At-Risk segment</strong> — targeted win-back campaign for the 353 customers worth £1.09M.</li>
+                <li><strong>Fix onboarding</strong> — Month-1 retention dropped 40% in newer cohorts; review acquisition targeting and first-purchase experience.</li>
+            </ol>
+
+            <hr />
+
+            <h3 style="color:#0f172a;">Dashboard</h3>
+            <div style="margin:12px 0 8px;">
+                <img src="images/churn-dashboard.jpg" alt="Customer Churn Dashboard" style="width:100%; border-radius:12px; border:1px solid #e2e8f0;" />
+                <p style="font-size:0.85rem; color:#64748b; text-align:center; margin-top:6px;">Revenue by Segment · Cohort Retention · Revenue Over Time · KPI Cards</p>
+            </div>
+
+            <hr />
+
+            <h3 style="color:#0f172a;">Skills Demonstrated</h3>
+            <div class="skills-list">
+                <span>Data Cleaning</span>
+                <span>Python (Pandas)</span>
+                <span>Exploratory Analysis</span>
+                <span>RFM Segmentation</span>
+                <span>Cohort Analysis</span>
+                <span>Power BI</span>
+                <span>Dashboard Design</span>
+                <span>Business Storytelling</span>
+                <span>Git / Version Control</span>
+            </div>
+
+            <hr />
+
+            <div style="text-align:center; margin-top:18px;">
+                <a href="https://github.com/sandilenkosi12/customer-churn-analysis" target="_blank" class="btn-download" style="display:inline-flex; align-items:center; gap:10px; background:var(--primary); color:#fff; padding:10px 28px; border-radius:60px; font-weight:600; text-decoration:none;">
+                    <span class="iconify icon-sm" data-icon="iconsax:document-download-outline"></span> View Code on GitHub
+                </a>
+                <button class="btn-primary" onclick="closeModal('churnModal')" style="border:none; padding:10px 32px; margin-left:10px;">
+                    <span class="iconify icon-sm" data-icon="iconsax:close-circle-outline"></span> Close
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================================== -->
     <!-- MODAL – DELOITTE CASE STUDY                                 -->
     <!-- ========================================================== -->
     <div id="deloitteModal" class="modal">
@@ -380,11 +499,11 @@
             <!-- Personal Reflection -->
             <h3 style="color:#0f172a;"> Why I'm interested</h3>
             <p style="color:#334155;">
-                “I recently participated in Deloitte's job simulation on the Forage platform, and it was incredibly useful
+                "I recently participated in Deloitte's job simulation on the Forage platform, and it was incredibly useful
                 to understand what it might be like to be part of the team at Deloitte. I was able to analyse data and create
                 a dashboard. I practised using Tableau and Excel and built my data analysis skills in a real-world context.
                 Doing this program confirmed that I really enjoy working on technology problems for clients and I'm excited
-                to apply these skills on a team at a company like Deloitte.”
+                to apply these skills on a team at a company like Deloitte."
             </p>
 
             <hr />
@@ -437,308 +556,269 @@
         </div>
     </div>
 
+    <!-- ========================================================== -->
+    <!-- MODAL – BRITISH AIRWAYS CASE STUDY                          -->
+    <!-- ========================================================== -->
+    <div id="airwaysModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('airwaysModal')">&times;</span>
 
- <!-- ========================================================== -->
-<!-- MODAL – BRITISH AIRWAYS CASE STUDY                          -->
-<!-- ========================================================== -->
-<div id="airwaysModal" class="modal">
-    <div class="modal-content">
-        <span class="modal-close" onclick="closeModal('airwaysModal')">&times;</span>
+            <h2> British Airways – Data Science Simulation</h2>
+            <div class="sub">Completed: June 9, 2026 · Forage Platform</div>
 
-        <h2> British Airways – Data Science Simulation</h2>
-        <div class="sub">Completed: June 9, 2026 · Forage Platform</div>
+            <hr />
 
-        <hr />
+            <!-- Certificate Section -->
+            <div class="highlight-box" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
+                <div style="display: flex; align-items: center; gap: 16px;">
+                    <span class="iconify icon-xl" data-icon="iconsax:award-outline" style="color: var(--primary);"></span>
+                    <div>
+                        <strong style="color:#0f172a;">Certificate of Completion</strong><br />
+                        <span style="font-size:0.9rem; color:#475569;">Sandile Abel Nkosi – Data Science</span>
+                    </div>
+                </div>
+                <a href="airways_certificate.pdf" download class="btn-download" style="margin-top: 10px;">
+                    <span class="iconify icon-sm" data-icon="iconsax:document-download-outline"></span> Download Certificate
+                </a>
+            </div>
 
-        <!-- Certificate Section -->
-        <div class="highlight-box" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
-            <div style="display: flex; align-items: center; gap: 16px;">
-                <span class="iconify icon-xl" data-icon="iconsax:award-outline" style="color: var(--primary);"></span>
-                <div>
-                    <strong style="color:#0f172a;">Certificate of Completion</strong><br />
-                    <span style="font-size:0.9rem; color:#475569;">Sandile Abel Nkosi – Data Science</span>
+            <!-- Quick Stats -->
+            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap:12px; margin:16px 0 20px;">
+                <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
+                    <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">Python</div>
+                    <div style="font-size:0.7rem; color:#64748b;">Classification</div>
+                </div>
+                <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
+                    <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">Lounge Eligibility</div>
+                    <div style="font-size:0.7rem; color:#64748b;">Heathrow Terminal 3</div>
+                </div>
+                <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
+                    <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">Buying Behaviour</div>
+                    <div style="font-size:0.7rem; color:#64748b;">Propensity Modeling</div>
+                </div>
+                <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
+                    <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">Customer Analytics</div>
+                    <div style="font-size:0.7rem; color:#64748b;">Personalisation</div>
                 </div>
             </div>
-            <a href="airways_certificate.pdf" download class="btn-download" style="margin-top: 10px;">
-                <span class="iconify icon-sm" data-icon="iconsax:document-download-outline"></span> Download Certificate
-            </a>
-        </div>
 
-        <!-- Quick Stats -->
-        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap:12px; margin:16px 0 20px;">
-            <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
-                <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">Python</div>
-                <div style="font-size:0.7rem; color:#64748b;">Classification</div>
+            <hr />
+
+            <h3 style="color:#0f172a;"> Task 1: Modeling Lounge Eligibility at Heathrow Terminal 3</h3>
+
+            <div style="background:#fef9e7; border-left:4px solid #f59e0b; padding:12px 16px; border-radius:8px; margin:8px 0;">
+                <strong style="color:#0f172a;"> Problem:</strong>
+                <p style="color:#334155; margin:4px 0 0;">British Airways needed to determine which customers should be granted access to the exclusive lounge at Heathrow Terminal 3. Lounge access is a high-value perk, and they wanted to optimize it – offering access to the right customers to maximize satisfaction and loyalty while managing capacity.</p>
             </div>
-            <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
-                <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">Lounge Eligibility</div>
-                <div style="font-size:0.7rem; color:#64748b;">Heathrow Terminal 3</div>
+
+            <div style="background:#ecfdf5; border-left:4px solid #10b981; padding:12px 16px; border-radius:8px; margin:8px 0;">
+                <strong style="color:#0f172a;"> Solution:</strong>
+                <p style="color:#334155; margin:4px 0 0;">Built a <strong>classification model</strong> to identify customers most likely to value lounge access, using customer data (flight history, tier status, spending patterns, etc.). The model helped BA tailor offers and improve the customer experience.</p>
             </div>
-            <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
-                <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">Buying Behaviour</div>
-                <div style="font-size:0.7rem; color:#64748b;">Propensity Modeling</div>
+
+            <div style="margin:12px 0 8px;">
+                <img src="images/airways_lounge_model.png" alt="Lounge Eligibility Model Output" style="width:100%; border-radius:12px; border:1px solid #e2e8f0;" />
+                <p style="font-size:0.85rem; color:#64748b; text-align:center; margin-top:6px;">Lounge Eligibility Model – Key Drivers &amp; Predictions</p>
             </div>
-            <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
-                <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">Customer Analytics</div>
-                <div style="font-size:0.7rem; color:#64748b;">Personalisation</div>
+
+            <hr />
+
+            <h3 style="color:#0f172a;"> Task 2: Predicting Customer Buying Behaviour</h3>
+
+            <div style="background:#fef9e7; border-left:4px solid #f59e0b; padding:12px 16px; border-radius:8px; margin:8px 0;">
+                <strong style="color:#0f172a;"> Problem:</strong>
+                <p style="color:#334155; margin:4px 0 0;">British Airways wanted to understand which customers were most likely to purchase additional services (upgrades, extra baggage, travel insurance, etc.) to increase revenue per customer.</p>
             </div>
-        </div>
 
-        <hr />
+            <div style="background:#ecfdf5; border-left:4px solid #10b981; padding:12px 16px; border-radius:8px; margin:8px 0;">
+                <strong style="color:#0f172a;"> Solution:</strong>
+                <p style="color:#334155; margin:4px 0 0;">Developed a <strong>propensity model</strong> to predict customer buying behaviour, allowing British Airways to target the right customers with the right offers at the right time – improving conversion rates and revenue.</p>
+            </div>
 
-        <!-- ========================================================== -->
-        <!-- TASK 1: Lounge Eligibility                                 -->
-        <!-- ========================================================== -->
-        <h3 style="color:#0f172a;"> Task 1: Modeling Lounge Eligibility at Heathrow Terminal 3</h3>
+            <div style="margin:12px 0 8px;">
+                <img src="images/airways_behaviour_model.png" alt="Customer Buying Behaviour Model" style="width:100%; border-radius:12px; border:1px solid #e2e8f0;" />
+                <p style="font-size:0.85rem; color:#64748b; text-align:center; margin-top:6px;">Buying Behaviour Model – Propensity Scores &amp; Key Features</p>
+            </div>
 
-        <div style="background:#fef9e7; border-left:4px solid #f59e0b; padding:12px 16px; border-radius:8px; margin:8px 0;">
-            <strong style="color:#0f172a;">📌 Problem:</strong>
-            <p style="color:#334155; margin:4px 0 0;">British Airways needed to determine which customers should be granted access to the exclusive lounge at Heathrow Terminal 3. Lounge access is a high-value perk, and they wanted to optimize it – offering access to the right customers to maximize satisfaction and loyalty while managing capacity.</p>
-        </div>
+            <hr />
 
-        <div style="background:#ecfdf5; border-left:4px solid #10b981; padding:12px 16px; border-radius:8px; margin:8px 0;">
-            <strong style="color:#0f172a;">✅ Solution:</strong>
-            <p style="color:#334155; margin:4px 0 0;">Built a <strong>classification model</strong> to identify customers most likely to value lounge access, using customer data (flight history, tier status, spending patterns, etc.). The model helped BA tailor offers and improve the customer experience.</p>
-        </div>
+            <h3 style="color:#0f172a;"> Skills Demonstrated</h3>
+            <div class="skills-list">
+                <span>Classification Modeling</span>
+                <span>Customer Segmentation</span>
+                <span>Propensity Scoring</span>
+                <span>Data Cleaning &amp; Feature Engineering</span>
+                <span>Python (Pandas, Sklearn)</span>
+                <span>Business Strategy</span>
+                <span>Customer Experience Optimization</span>
+            </div>
 
-        <!-- IMAGE – TASK 1 -->
-        <div style="margin:12px 0 8px;">
-            <img src="images/airways_lounge_model.png" alt="Lounge Eligibility Model Output" style="width:100%; border-radius:12px; border:1px solid #e2e8f0;" />
-            <p style="font-size:0.85rem; color:#64748b; text-align:center; margin-top:6px;">Lounge Eligibility Model – Key Drivers &amp; Predictions</p>
-        </div>
+            <hr />
 
-        
-        <hr />
-
-        <!-- ========================================================== -->
-        <!-- TASK 2: Customer Buying Behaviour                          -->
-        <!-- ========================================================== -->
-        <h3 style="color:#0f172a;"> Task 2: Predicting Customer Buying Behaviour</h3>
-
-        <div style="background:#fef9e7; border-left:4px solid #f59e0b; padding:12px 16px; border-radius:8px; margin:8px 0;">
-            <strong style="color:#0f172a;">📌 Problem:</strong>
-            <p style="color:#334155; margin:4px 0 0;">British Airways wanted to understand which customers were most likely to purchase additional services (upgrades, extra baggage, travel insurance, etc.) to increase revenue per customer.</p>
-        </div>
-
-        <div style="background:#ecfdf5; border-left:4px solid #10b981; padding:12px 16px; border-radius:8px; margin:8px 0;">
-            <strong style="color:#0f172a;">✅ Solution:</strong>
-            <p style="color:#334155; margin:4px 0 0;">Developed a <strong>propensity model</strong> to predict customer buying behaviour, allowing British Airways to target the right customers with the right offers at the right time – improving conversion rates and revenue.</p>
-        </div>
-
-        <!-- IMAGE – TASK 2 -->
-        <div style="margin:12px 0 8px;">
-            <img src="images/airways_behaviour_model.png" alt="Customer Buying Behaviour Model" style="width:100%; border-radius:12px; border:1px solid #e2e8f0;" />
-            <p style="font-size:0.85rem; color:#64748b; text-align:center; margin-top:6px;">Buying Behaviour Model – Propensity Scores &amp; Key Features</p>
-        </div>
-
-       
-        <hr />
-
-        <!-- Skills -->
-        <h3 style="color:#0f172a;"> Skills Demonstrated</h3>
-        <div class="skills-list">
-            <span>Classification Modeling</span>
-            <span>Customer Segmentation</span>
-            <span>Propensity Scoring</span>
-            <span>Data Cleaning &amp; Feature Engineering</span>
-            <span>Python (Pandas, Sklearn)</span>
-            <span>Business Strategy</span>
-            <span>Customer Experience Optimization</span>
-        </div>
-
-        <hr />
-
-        <p style="text-align:center; color:#64748b; font-size:0.9rem;">
-            <span class="iconify icon-sm" data-icon="iconsax:check-circle-outline" style="color: var(--primary); display:inline-block; vertical-align:middle;"></span> British Airways Simulation &nbsp;|&nbsp;
-            <span class="iconify icon-sm" data-icon="iconsax:calendar-outline" style="color: var(--primary); display:inline-block; vertical-align:middle;"></span> June 2026
-        </p>
-        <div style="text-align:center; margin-top:18px;">
-            <button class="btn-primary" onclick="closeModal('airwaysModal')" style="border:none; padding:10px 32px;">
-                <span class="iconify icon-sm" data-icon="iconsax:close-circle-outline"></span> Close
-            </button>
+            <p style="text-align:center; color:#64748b; font-size:0.9rem;">
+                <span class="iconify icon-sm" data-icon="iconsax:check-circle-outline" style="color: var(--primary); display:inline-block; vertical-align:middle;"></span> British Airways Simulation &nbsp;|&nbsp;
+                <span class="iconify icon-sm" data-icon="iconsax:calendar-outline" style="color: var(--primary); display:inline-block; vertical-align:middle;"></span> June 2026
+            </p>
+            <div style="text-align:center; margin-top:18px;">
+                <button class="btn-primary" onclick="closeModal('airwaysModal')" style="border:none; padding:10px 32px;">
+                    <span class="iconify icon-sm" data-icon="iconsax:close-circle-outline"></span> Close
+                </button>
+            </div>
         </div>
     </div>
-</div>
-
-
-
-
-
 
     <!-- ========================================================== -->
-<!-- MODAL – JPMORGAN CASE STUDY                                 -->
-<!-- ========================================================== -->
-<div id="jpmorganModal" class="modal">
-    <div class="modal-content">
-        <span class="modal-close" onclick="closeModal('jpmorganModal')">&times;</span>
+    <!-- MODAL – JPMORGAN CASE STUDY                                 -->
+    <!-- ========================================================== -->
+    <div id="jpmorganModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('jpmorganModal')">&times;</span>
 
-        <h2> JPMorgan Chase – Quantitative Research</h2>
-        <div class="sub">Job Simulation · Completed: June 19, 2026</div>
+            <h2> JPMorgan Chase – Quantitative Research</h2>
+            <div class="sub">Job Simulation · Completed: June 19, 2026</div>
 
-        <hr />
+            <hr />
 
-        <!-- Certificate Section -->
-        <div class="highlight-box" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
-            <div style="display: flex; align-items: center; gap: 16px;">
-                <span class="iconify icon-xl" data-icon="iconsax:award-outline" style="color: var(--primary);"></span>
-                <div>
-                    <strong style="color:#0f172a;">Certificate of Completion</strong><br />
-                    <span style="font-size:0.9rem; color:#475569;">Sandile Abel Nkosi – Quantitative Research</span>
+            <div class="highlight-box" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
+                <div style="display: flex; align-items: center; gap: 16px;">
+                    <span class="iconify icon-xl" data-icon="iconsax:award-outline" style="color: var(--primary);"></span>
+                    <div>
+                        <strong style="color:#0f172a;">Certificate of Completion</strong><br />
+                        <span style="font-size:0.9rem; color:#475569;">Sandile Abel Nkosi – Quantitative Research</span>
+                    </div>
+                </div>
+                <a href="Quantitative rese completion_certificate.pdf" download class="btn-download" style="margin-top: 10px;">
+                    <span class="iconify icon-sm" data-icon="iconsax:document-download-outline"></span> Download Certificate
+                </a>
+            </div>
+
+            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap:12px; margin:16px 0 20px;">
+                <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
+                    <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">Python</div>
+                    <div style="font-size:0.7rem; color:#64748b;">Pandas · Sklearn</div>
+                </div>
+                <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
+                    <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">Forecasting</div>
+                    <div style="font-size:0.7rem; color:#64748b;">Seasonality · Regression</div>
+                </div>
+                <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
+                    <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">Random Forest</div>
+                    <div style="font-size:0.7rem; color:#64748b;">Credit Risk · PD/EL</div>
+                </div>
+                <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
+                    <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">Storage Contract</div>
+                    <div style="font-size:0.7rem; color:#64748b;">Valuation · Pricing</div>
                 </div>
             </div>
-            <a href="Quantitative rese completion_certificate.pdf" download class="btn-download" style="margin-top: 10px;">
-                <span class="iconify icon-sm" data-icon="iconsax:document-download-outline"></span> Download Certificate
-            </a>
-        </div>
 
-        <!-- Quick Stats -->
-        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap:12px; margin:16px 0 20px;">
-            <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
-                <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">Python</div>
-                <div style="font-size:0.7rem; color:#64748b;">Pandas · Sklearn</div>
+            <hr />
+
+            <h3 style="color:#0f172a;"> Task 1: Natural Gas Price Forecasting</h3>
+            
+            <div style="background:#fef9e7; border-left:4px solid #f59e0b; padding:12px 16px; border-radius:8px; margin:8px 0;">
+                <strong style="color:#0f172a;">📌 Problem:</strong>
+                <p style="color:#334155; margin:4px 0 0;">The trading desk wanted to start trading natural gas storage contracts but lacked a way to forecast future prices. The existing data was just monthly snapshots, with no model accounting for seasonal trends (higher winter demand = higher prices). They needed price estimates for any date to price contracts accurately.</p>
             </div>
-            <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
-                <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">Forecasting</div>
-                <div style="font-size:0.7rem; color:#64748b;">Seasonality · Regression</div>
+
+            <div style="background:#ecfdf5; border-left:4px solid #10b981; padding:12px 16px; border-radius:8px; margin:8px 0;">
+                <strong style="color:#0f172a;">✅ Solution:</strong>
+                <p style="color:#334155; margin:4px 0 0;">Built a <strong>linear regression model</strong> with two components: a <strong>linear trend</strong> (upward over time) and <strong>monthly seasonal dummies</strong> (to capture winter/summer price differences). The model achieved an out-of-sample <strong>MAE of ~$0.17/MMBtu</strong> and <strong>RMSE of ~0.20</strong>. Delivered a Python function that estimates the price on any date and provides a 12‑month forecast.</p>
             </div>
-            <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
-                <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">Random Forest</div>
-                <div style="font-size:0.7rem; color:#64748b;">Credit Risk · PD/EL</div>
+
+            <div style="text-align:right; margin:6px 0 16px;">
+                <a href="JPMC_Task 1_ Answer.docx" download class="btn-download" style="padding:8px 22px; font-size:0.85rem;">
+                    <span class="iconify icon-sm" data-icon="iconsax:document-download-outline"></span> Download Solution (PDF)
+                </a>
             </div>
-            <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
-                <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">Storage Contract</div>
-                <div style="font-size:0.7rem; color:#64748b;">Valuation · Pricing</div>
+
+            <hr />
+
+            <h3 style="color:#0f172a;"> Task 2: Commodity Storage Contract Pricing</h3>
+            
+            <div style="background:#fef9e7; border-left:4px solid #f59e0b; padding:12px 16px; border-radius:8px; margin:8px 0;">
+                <strong style="color:#0f172a;">📌 Problem:</strong>
+                <p style="color:#334155; margin:4px 0 0;">A client wanted to buy gas in summer, store it, and sell it in winter to profit from seasonal price differences. However, they needed a pricing model that accounted for <strong>multiple injection/withdrawal dates, storage capacity limits, daily injection/withdrawal rates, and all associated costs</strong> (storage rental, injection fees, withdrawal fees). Without this, they couldn't determine if the trade was actually profitable.</p>
             </div>
-        </div>
 
-        <hr />
+            <div style="background:#ecfdf5; border-left:4px solid #10b981; padding:12px 16px; border-radius:8px; margin:8px 0;">
+                <strong style="color:#0f172a;">✅ Solution:</strong>
+                <p style="color:#334155; margin:4px 0 0;">Developed a <strong>Python pricing function</strong> that simulates the full lifecycle of a storage contract. The function:</p>
+                <ul style="margin-left:20px; color:#334155; font-size:0.9rem;">
+                    <li>Accepts injection/withdrawal dates, volumes, rates, max capacity, and cost inputs.</li>
+                    <li>Simulates inventory levels and enforces daily rate constraints.</li>
+                    <li>Calculates gross profit from price differences and subtracts all storage, injection, and withdrawal costs.</li>
+                    <li>Returns the net contract value, enabling traders to evaluate profitability instantly.</li>
+                </ul>
+            </div>
 
-        <!-- ========================================================== -->
-        <!-- TASK 1: Gas Price Forecasting                              -->
-        <!-- ========================================================== -->
-        <h3 style="color:#0f172a;"> Task 1: Natural Gas Price Forecasting</h3>
-        
-        <div style="background:#fef9e7; border-left:4px solid #f59e0b; padding:12px 16px; border-radius:8px; margin:8px 0;">
-            <strong style="color:#0f172a;">📌 Problem:</strong>
-            <p style="color:#334155; margin:4px 0 0;">The trading desk wanted to start trading natural gas storage contracts but lacked a way to forecast future prices. The existing data was just monthly snapshots, with no model accounting for seasonal trends (higher winter demand = higher prices). They needed price estimates for any date to price contracts accurately.</p>
-        </div>
+            <div style="text-align:right; margin:6px 0 16px;">
+                <a href="JPMC_Task 2_ Answer.docx" download class="btn-download" style="padding:8px 22px; font-size:0.85rem;">
+                    <span class="iconify icon-sm" data-icon="iconsax:document-download-outline"></span> Download Solution (PDF)
+                </a>
+            </div>
 
-        <div style="background:#ecfdf5; border-left:4px solid #10b981; padding:12px 16px; border-radius:8px; margin:8px 0;">
-            <strong style="color:#0f172a;">✅ Solution:</strong>
-            <p style="color:#334155; margin:4px 0 0;">Built a <strong>linear regression model</strong> with two components: a <strong>linear trend</strong> (upward over time) and <strong>monthly seasonal dummies</strong> (to capture winter/summer price differences). The model achieved an out-of-sample <strong>MAE of ~$0.17/MMBtu</strong> and <strong>RMSE of ~0.20</strong>. Delivered a Python function that estimates the price on any date and provides a 12‑month forecast.</p>
-        </div>
+            <hr />
 
-        <!-- DOWNLOAD BUTTON – TASK 1 -->
-        <div style="text-align:right; margin:6px 0 16px;">
-            <a href="JPMC_Task 1_ Answer.docx" download class="btn-download" style="padding:8px 22px; font-size:0.85rem;">
-                <span class="iconify icon-sm" data-icon="iconsax:document-download-outline"></span> Download Solution (PDF)
-            </a>
-        </div>
+            <h3 style="color:#0f172a;"> Task 3: Credit Risk &amp; Expected Loss Prediction</h3>
+            
+            <div style="background:#fef9e7; border-left:4px solid #f59e0b; padding:12px 16px; border-radius:8px; margin:8px 0;">
+                <strong style="color:#0f172a;">📌 Problem:</strong>
+                <p style="color:#334155; margin:4px 0 0;">The retail banking arm was experiencing higher-than-expected default rates. They needed a model to estimate the <strong>Probability of Default (PD)</strong> for each borrower and calculate the <strong>Expected Loss (EL)</strong> so they could set aside sufficient capital reserves. They lacked a predictive tool that could analyze customer characteristics (income, FICO score, debt-to-income ratio, etc.) to flag at-risk borrowers.</p>
+            </div>
 
-        <hr />
+            <div style="background:#ecfdf5; border-left:4px solid #10b981; padding:12px 16px; border-radius:8px; margin:8px 0;">
+                <strong style="color:#0f172a;"> Solution:</strong>
+                <p style="color:#334155; margin:4px 0 0;">Built a <strong>Random Forest classifier</strong> using features like credit_lines_outstanding, loan_amt_outstanding, total_debt_outstanding, income, years_employed, fico_score, debt_to_income, and loan_to_income. The model achieves an <strong>AUC of ~0.75–0.80</strong>, accurately distinguishing between defaulters and non-defaulters. Combined with a 10% recovery rate, I created a function that computes <strong>Expected Loss (EL) = PD × (1 − Recovery Rate) × Loan Amount</strong>, giving the bank a concrete dollar value for potential losses.</p>
+            </div>
 
-        <!-- ========================================================== -->
-        <!-- TASK 2: Storage Contract Pricing                           -->
-        <!-- ========================================================== -->
-        <h3 style="color:#0f172a;"> Task 2: Commodity Storage Contract Pricing</h3>
-        
-        <div style="background:#fef9e7; border-left:4px solid #f59e0b; padding:12px 16px; border-radius:8px; margin:8px 0;">
-            <strong style="color:#0f172a;">📌 Problem:</strong>
-            <p style="color:#334155; margin:4px 0 0;">A client wanted to buy gas in summer, store it, and sell it in winter to profit from seasonal price differences. However, they needed a pricing model that accounted for <strong>multiple injection/withdrawal dates, storage capacity limits, daily injection/withdrawal rates, and all associated costs</strong> (storage rental, injection fees, withdrawal fees). Without this, they couldn't determine if the trade was actually profitable.</p>
-        </div>
+            <div style="text-align:right; margin:6px 0 16px;">
+                <a href="JPMC_Task 3_ Answer.docx" download class="btn-download" style="padding:8px 22px; font-size:0.85rem;">
+                    <span class="iconify icon-sm" data-icon="iconsax:document-download-outline"></span> Download Solution (PDF)
+                </a>
+            </div>
 
-        <div style="background:#ecfdf5; border-left:4px solid #10b981; padding:12px 16px; border-radius:8px; margin:8px 0;">
-            <strong style="color:#0f172a;">✅ Solution:</strong>
-            <p style="color:#334155; margin:4px 0 0;">Developed a <strong>Python pricing function</strong> that simulates the full lifecycle of a storage contract. The function:</p>
-            <ul style="margin-left:20px; color:#334155; font-size:0.9rem;">
-                <li>Accepts injection/withdrawal dates, volumes, rates, max capacity, and cost inputs.</li>
-                <li>Simulates inventory levels and enforces daily rate constraints.</li>
-                <li>Calculates gross profit from price differences and subtracts all storage, injection, and withdrawal costs.</li>
-                <li>Returns the net contract value, enabling traders to evaluate profitability instantly.</li>
-            </ul>
-        </div>
+            <hr />
 
-        <!-- DOWNLOAD BUTTON – TASK 2 -->
-        <div style="text-align:right; margin:6px 0 16px;">
-            <a href="JPMC_Task 2_ Answer.docx" download class="btn-download" style="padding:8px 22px; font-size:0.85rem;">
-                <span class="iconify icon-sm" data-icon="iconsax:document-download-outline"></span> Download Solution (PDF)
-            </a>
-        </div>
+            <h3 style="color:#0f172a;"> Skills Demonstrated</h3>
+            <div class="skills-list">
+                <span>Time-Series Forecasting</span>
+                <span>Linear Regression</span>
+                <span>Seasonality Analysis</span>
+                <span>Financial Modeling</span>
+                <span>Python (Pandas, Sklearn)</span>
+                <span>Random Forest</span>
+                <span>Classification Metrics</span>
+                <span>Credit Risk Analysis</span>
+                <span>Probability of Default (PD)</span>
+                <span>Expected Loss (EL)</span>
+            </div>
 
-        <hr />
+            <hr />
 
-        <!-- ========================================================== -->
-        <!-- TASK 3: Credit Risk & Expected Loss                        -->
-        <!-- ========================================================== -->
-        <h3 style="color:#0f172a;"> Task 3: Credit Risk & Expected Loss Prediction</h3>
-        
-        <div style="background:#fef9e7; border-left:4px solid #f59e0b; padding:12px 16px; border-radius:8px; margin:8px 0;">
-            <strong style="color:#0f172a;">📌 Problem:</strong>
-            <p style="color:#334155; margin:4px 0 0;">The retail banking arm was experiencing higher-than-expected default rates. They needed a model to estimate the <strong>Probability of Default (PD)</strong> for each borrower and calculate the <strong>Expected Loss (EL)</strong> so they could set aside sufficient capital reserves. They lacked a predictive tool that could analyze customer characteristics (income, FICO score, debt-to-income ratio, etc.) to flag at-risk borrowers.</p>
-        </div>
-
-        <div style="background:#ecfdf5; border-left:4px solid #10b981; padding:12px 16px; border-radius:8px; margin:8px 0;">
-            <strong style="color:#0f172a;">✅ Solution:</strong>
-            <p style="color:#334155; margin:4px 0 0;">Built a <strong>Random Forest classifier</strong> using features like credit_lines_outstanding, loan_amt_outstanding, total_debt_outstanding, income, years_employed, fico_score, debt_to_income, and loan_to_income. The model achieves an <strong>AUC of ~0.75–0.80</strong>, accurately distinguishing between defaulters and non-defaulters. Combined with a 10% recovery rate, I created a function that computes <strong>Expected Loss (EL) = PD × (1 − Recovery Rate) × Loan Amount</strong>, giving the bank a concrete dollar value for potential losses.</p>
-        </div>
-
-        <!-- DOWNLOAD BUTTON – TASK 3 -->
-        <div style="text-align:right; margin:6px 0 16px;">
-            <a href="JPMC_Task 3_ Answer.docx" download class="btn-download" style="padding:8px 22px; font-size:0.85rem;">
-                <span class="iconify icon-sm" data-icon="iconsax:document-download-outline"></span> Download Solution (PDF)
-            </a>
-        </div>
-
-        <hr />
-
-        <!-- Skills -->
-        <h3 style="color:#0f172a;"> Skills Demonstrated</h3>
-        <div class="skills-list">
-            <span>Time-Series Forecasting</span>
-            <span>Linear Regression</span>
-            <span>Seasonality Analysis</span>
-            <span>Financial Modeling</span>
-            <span>Python (Pandas, Sklearn)</span>
-            <span>Random Forest</span>
-            <span>Classification Metrics</span>
-            <span>Credit Risk Analysis</span>
-            <span>Probability of Default (PD)</span>
-            <span>Expected Loss (EL)</span>
-        </div>
-
-        <hr />
-
-        <p style="text-align:center; color:#64748b; font-size:0.9rem;">
-            <span class="iconify icon-sm" data-icon="iconsax:check-circle-outline" style="color: var(--primary); display:inline-block; vertical-align:middle;"></span> JPMorgan Chase Simulation &nbsp;|&nbsp;
-            <span class="iconify icon-sm" data-icon="iconsax:calendar-outline" style="color: var(--primary); display:inline-block; vertical-align:middle;"></span> June 2026
-        </p>
-        <div style="text-align:center; margin-top:18px;">
-            <button class="btn-primary" onclick="closeModal('jpmorganModal')" style="border:none; padding:10px 32px;">
-                <span class="iconify icon-sm" data-icon="iconsax:close-circle-outline"></span> Close
-            </button>
+            <p style="text-align:center; color:#64748b; font-size:0.9rem;">
+                <span class="iconify icon-sm" data-icon="iconsax:check-circle-outline" style="color: var(--primary); display:inline-block; vertical-align:middle;"></span> JPMorgan Chase Simulation &nbsp;|&nbsp;
+                <span class="iconify icon-sm" data-icon="iconsax:calendar-outline" style="color: var(--primary); display:inline-block; vertical-align:middle;"></span> June 2026
+            </p>
+            <div style="text-align:center; margin-top:18px;">
+                <button class="btn-primary" onclick="closeModal('jpmorganModal')" style="border:none; padding:10px 32px;">
+                    <span class="iconify icon-sm" data-icon="iconsax:close-circle-outline"></span> Close
+                </button>
+            </div>
         </div>
     </div>
-</div>
 
+    <!-- ========================================================== -->
+    <!-- MODAL – TATA GROUP CASE STUDY                               -->
+    <!-- ========================================================== -->
+    <div id="tataModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('tataModal')">&times;</span>
 
+            <h2> Tata Group – AI-Powered Collections Strategy</h2>
+            <div class="sub">Data Science Simulation · June 2026</div>
 
+            <hr />
 
-
-
-
-<!-- ========================================================== -->
-<!-- MODAL – TATA GROUP CASE STUDY                               -->
-<!-- ========================================================== -->
-<div id="tataModal" class="modal">
-    <div class="modal-content">
-        <span class="modal-close" onclick="closeModal('tataModal')">&times;</span>
-
-        <h2> Tata Group – AI-Powered Collections Strategy</h2>
-        <div class="sub">Data Science Simulation · June 2026</div>
-
-        <hr />
-
-         <!-- Certificate + Download Button -->
             <div class="highlight-box" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
                 <div style="display: flex; align-items: center; gap: 16px;">
                     <span class="iconify icon-xl" data-icon="iconsax:award-outline" style="color: var(--primary);"></span>
@@ -752,159 +832,151 @@
                 </a>
             </div>
 
-
-        <!-- Quick Stats -->
-        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap:12px; margin-bottom:20px;">
-            <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
-                <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">15%</div>
-                <div style="font-size:0.7rem; color:#64748b;">↓ Delinquency</div>
+            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap:12px; margin-bottom:20px;">
+                <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
+                    <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">15%</div>
+                    <div style="font-size:0.7rem; color:#64748b;">↓ Delinquency</div>
+                </div>
+                <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
+                    <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">60%</div>
+                    <div style="font-size:0.7rem; color:#64748b;">Automated Outreach</div>
+                </div>
+                <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
+                    <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">GDPR</div>
+                    <div style="font-size:0.7rem; color:#64748b;">Compliant</div>
+                </div>
+                <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
+                    <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">6‑wk</div>
+                    <div style="font-size:0.7rem; color:#64748b;">Pilot Campaign</div>
+                </div>
             </div>
-            <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
-                <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">60%</div>
-                <div style="font-size:0.7rem; color:#64748b;">Automated Outreach</div>
+
+            <h3 style="color:#0f172a;"> Business Problem</h3>
+            <p style="color:#334155;">Geldium, a financial services client, faced rising credit card delinquency rates and high operational costs from manual, reactive outreach. The goal was to use predictive analytics to identify at-risk customers early and automate personalized interventions to prevent delinquency while maintaining fairness and regulatory compliance.</p>
+
+            <hr />
+
+            <h3 style="color:#0f172a;"> Exploratory Data Analysis (EDA)</h3>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:8px 0;">
+                <div style="background:#f8fafc; padding:12px 16px; border-radius:12px; border-left:4px solid #f59e0b;">
+                    <strong style="font-size:0.85rem;">>50% Credit Utilization</strong>
+                    <p style="font-size:0.8rem; color:#475569; margin:2px 0 0;">Strongest predictor of delinquency</p>
+                </div>
+                <div style="background:#f8fafc; padding:12px 16px; border-radius:12px; border-left:4px solid #f59e0b;">
+                    <strong style="font-size:0.85rem;">3+ Missed Payments</strong>
+                    <p style="font-size:0.8rem; color:#475569; margin:2px 0 0;">High-risk flag within 6 months</p>
+                </div>
+                <div style="background:#f8fafc; padding:12px 16px; border-radius:12px; border-left:4px solid #f59e0b;">
+                    <strong style="font-size:0.85rem;">DTI > 0.5</strong>
+                    <p style="font-size:0.8rem; color:#475569; margin:2px 0 0;">Debt-to-income ratio spike</p>
+                </div>
+                <div style="background:#f8fafc; padding:12px 16px; border-radius:12px; border-left:4px solid #f59e0b;">
+                    <strong style="font-size:0.85rem;">Anomaly Detected</strong>
+                    <p style="font-size:0.8rem; color:#475569; margin:2px 0 0;">High income / low credit score – flagged for review</p>
+                </div>
             </div>
-            <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
-                <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">GDPR</div>
-                <div style="font-size:0.7rem; color:#64748b;">Compliant</div>
+            <p style="font-size:0.85rem; color:#64748b;">📌 Missing income and loan balance values were handled via median imputation.</p>
+
+            <hr />
+
+            <h3 style="color:#0f172a;"> Predictive Model – Logistic Regression</h3>
+            <ul>
+                <li><strong>Why:</strong> Highly interpretable – essential for financial services transparency and stakeholder trust.</li>
+                <li><strong>Key Features:</strong> Credit Utilization, Missed Payments, Income, Debt-to-Income Ratio, Account Tenure.</li>
+                <li><strong>Evaluation Metrics:</strong> Precision (avoid false alarms), Recall (catch high-risk customers), F1-Score (balance), AUC (class separation).</li>
+                <li><strong>Bias &amp; Fairness:</strong> Evaluated across age and income groups – no disproportionate flagging observed.</li>
+            </ul>
+
+            <hr />
+
+            <h3 style="color:#0f172a;"> System Architecture</h3>
+            <div style="display:flex; flex-wrap:wrap; justify-content:space-between; background:#f1f5f9; padding:14px 18px; border-radius:16px; margin:8px 0;">
+                <span style="font-weight:600; color:#0f172a;"> Data Pipeline</span>
+                <span style="color:#94a3b8;">→</span>
+                <span style="font-weight:600; color:#0f172a;">⚙️ Decision Engine</span>
+                <span style="color:#94a3b8;">→</span>
+                <span style="font-weight:600; color:#0f172a;">📨 Action Layer</span>
+                <span style="color:#94a3b8;">→</span>
+                <span style="font-weight:600; color:#0f172a;"> Learning Loop</span>
             </div>
-            <div style="background:#f1f5f9; padding:10px 14px; border-radius:12px; text-align:center;">
-                <div style="font-weight:800; color:var(--primary); font-size:1.2rem;">6‑wk</div>
-                <div style="font-size:0.7rem; color:#64748b;">Pilot Campaign</div>
+            <ul>
+                <li><strong>Data Pipeline:</strong> Ingests real-time customer financial behaviour.</li>
+                <li><strong>Decision Engine:</strong> ML models + business rules → optimal intervention.</li>
+                <li><strong>Action Layer:</strong> Automated SMS/email, repayment plans, hardship offers.</li>
+                <li><strong>Learning Loop:</strong> Continuously improves based on repayment outcomes.</li>
+            </ul>
+
+            <hr />
+
+            <h3 style="color:#0f172a;"> Strategic Recommendation</h3>
+            <div style="background:linear-gradient(135deg, #eef2ff, #f8fafc); border-radius:16px; padding:16px 20px; border:1px solid #e2e8f0;">
+                <p style="font-weight:700; color:#0f172a;"> Target Segment: <span style="color:var(--primary);">Under 30 + 2+ Missed Payments</span></p>
+                <p style="font-size:0.9rem; color:#334155;">Launch a <strong>6‑week pilot</strong> outreach campaign via SMS + Email offering flexible payment plans and financial counseling.</p>
+                <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:10px;">
+                    <span style="background:white; padding:4px 14px; border-radius:40px; font-size:0.75rem; font-weight:600; border:1px solid #e2e8f0;"> Specific</span>
+                    <span style="background:white; padding:4px 14px; border-radius:40px; font-size:0.75rem; font-weight:600; border:1px solid #e2e8f0;"> Measurable: 10‑15% ↓</span>
+                    <span style="background:white; padding:4px 14px; border-radius:40px; font-size:0.75rem; font-weight:600; border:1px solid #e2e8f0;"> Actionable</span>
+                    <span style="background:white; padding:4px 14px; border-radius:40px; font-size:0.75rem; font-weight:600; border:1px solid #e2e8f0;"> Relevant</span>
+                    <span style="background:white; padding:4px 14px; border-radius:40px; font-size:0.75rem; font-weight:600; border:1px solid #e2e8f0;"> Time-bound (6 weeks)</span>
+                </div>
             </div>
-        </div>
 
-        <!-- 1. BUSINESS PROBLEM -->
-        <h3 style="color:#0f172a;"> Business Problem</h3>
-        <p style="color:#334155;">Geldium, a financial services client, faced rising credit card delinquency rates and high operational costs from manual, reactive outreach. The goal was to use predictive analytics to identify at-risk customers early and automate personalized interventions to prevent delinquency while maintaining fairness and regulatory compliance.</p>
+            <hr />
 
-        <hr />
-
-        <!-- 2. EDA & KEY INSIGHTS -->
-        <h3 style="color:#0f172a;"> Exploratory Data Analysis (EDA)</h3>
-        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:8px 0;">
-            <div style="background:#f8fafc; padding:12px 16px; border-radius:12px; border-left:4px solid #f59e0b;">
-                <strong style="font-size:0.85rem;">>50% Credit Utilization</strong>
-                <p style="font-size:0.8rem; color:#475569; margin:2px 0 0;">Strongest predictor of delinquency</p>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; margin:8px 0;">
+                <div>
+                    <h3 style="color:#0f172a;"> Responsible AI Guardrails</h3>
+                    <ul>
+                        <li><strong>Fairness:</strong> Regular bias audits – equal treatment across demographics.</li>
+                        <li><strong>Transparency:</strong> Clear explanations for every AI decision.</li>
+                        <li><strong>Compliance:</strong> Aligned with GDPR, ECOA, consumer laws.</li>
+                        <li><strong>Oversight:</strong> Human intervention for critical decisions.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 style="color:#0f172a;"> Expected Business Impact</h3>
+                    <ul>
+                        <li><strong>15%</strong> reduction in 30+ day delinquency (6 months).</li>
+                        <li><strong>60%</strong> of outreach actions automated – significant cost savings.</li>
+                        <li><strong>Scalable:</strong> AI allows mass personalisation without increasing headcount.</li>
+                        <li><strong>Trust:</strong> Fair, transparent outreach improves customer repayment rates.</li>
+                    </ul>
+                </div>
             </div>
-            <div style="background:#f8fafc; padding:12px 16px; border-radius:12px; border-left:4px solid #f59e0b;">
-                <strong style="font-size:0.85rem;">3+ Missed Payments</strong>
-                <p style="font-size:0.8rem; color:#475569; margin:2px 0 0;">High-risk flag within 6 months</p>
+
+            <hr />
+
+            <h3 style="color:#0f172a;"> Skills Demonstrated</h3>
+            <div class="skills-list">
+                <span>Data Analysis (EDA)</span>
+                <span>Python (Pandas, Sklearn)</span>
+                <span>Logistic Regression</span>
+                <span>Classification Metrics</span>
+                <span>Business Strategy</span>
+                <span>SMART Framework</span>
+                <span>Responsible AI</span>
+                <span>GDPR / ECOA Compliance</span>
+                <span>Stakeholder Communication</span>
+                <span>Generative AI</span>
             </div>
-            <div style="background:#f8fafc; padding:12px 16px; border-radius:12px; border-left:4px solid #f59e0b;">
-                <strong style="font-size:0.85rem;">DTI > 0.5</strong>
-                <p style="font-size:0.8rem; color:#475569; margin:2px 0 0;">Debt-to-income ratio spike</p>
-            </div>
-            <div style="background:#f8fafc; padding:12px 16px; border-radius:12px; border-left:4px solid #f59e0b;">
-                <strong style="font-size:0.85rem;">Anomaly Detected</strong>
-                <p style="font-size:0.8rem; color:#475569; margin:2px 0 0;">High income / low credit score – flagged for review</p>
-            </div>
-        </div>
-        <p style="font-size:0.85rem; color:#64748b;">📌 Missing income and loan balance values were handled via median imputation.</p>
 
-        <hr />
+            <hr />
 
-        <!-- 3. PREDICTIVE MODEL -->
-        <h3 style="color:#0f172a;"> Predictive Model – Logistic Regression</h3>
-        <ul>
-            <li><strong>Why:</strong> Highly interpretable – essential for financial services transparency and stakeholder trust.</li>
-            <li><strong>Key Features:</strong> Credit Utilization, Missed Payments, Income, Debt-to-Income Ratio, Account Tenure.</li>
-            <li><strong>Evaluation Metrics:</strong> Precision (avoid false alarms), Recall (catch high-risk customers), F1-Score (balance), AUC (class separation).</li>
-            <li><strong>Bias & Fairness:</strong> Evaluated across age and income groups – no disproportionate flagging observed.</li>
-        </ul>
-
-        <hr />
-
-        <!-- 4. SYSTEM ARCHITECTURE -->
-        <h3 style="color:#0f172a;"> System Architecture</h3>
-        <div style="display:flex; flex-wrap:wrap; justify-content:space-between; background:#f1f5f9; padding:14px 18px; border-radius:16px; margin:8px 0;">
-            <span style="font-weight:600; color:#0f172a;">📥 Data Pipeline</span>
-            <span style="color:#94a3b8;">→</span>
-            <span style="font-weight:600; color:#0f172a;">⚙️ Decision Engine</span>
-            <span style="color:#94a3b8;">→</span>
-            <span style="font-weight:600; color:#0f172a;">📨 Action Layer</span>
-            <span style="color:#94a3b8;">→</span>
-            <span style="font-weight:600; color:#0f172a;"> Learning Loop</span>
-        </div>
-        <ul>
-            <li><strong>Data Pipeline:</strong> Ingests real-time customer financial behaviour.</li>
-            <li><strong>Decision Engine:</strong> ML models + business rules → optimal intervention.</li>
-            <li><strong>Action Layer:</strong> Automated SMS/email, repayment plans, hardship offers.</li>
-            <li><strong>Learning Loop:</strong> Continuously improves based on repayment outcomes.</li>
-        </ul>
-
-        <hr />
-
-        <!-- 5. STRATEGIC RECOMMENDATION -->
-        <h3 style="color:#0f172a;"> Strategic Recommendation</h3>
-        <div style="background:linear-gradient(135deg, #eef2ff, #f8fafc); border-radius:16px; padding:16px 20px; border:1px solid #e2e8f0;">
-            <p style="font-weight:700; color:#0f172a;"> Target Segment: <span style="color:var(--primary);">Under 30 + 2+ Missed Payments</span></p>
-            <p style="font-size:0.9rem; color:#334155;">Launch a <strong>6‑week pilot</strong> outreach campaign via SMS + Email offering flexible payment plans and financial counseling.</p>
-            <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:10px;">
-                <span style="background:white; padding:4px 14px; border-radius:40px; font-size:0.75rem; font-weight:600; border:1px solid #e2e8f0;">✅ Specific</span>
-                <span style="background:white; padding:4px 14px; border-radius:40px; font-size:0.75rem; font-weight:600; border:1px solid #e2e8f0;">📊 Measurable: 10‑15% ↓</span>
-                <span style="background:white; padding:4px 14px; border-radius:40px; font-size:0.75rem; font-weight:600; border:1px solid #e2e8f0;">⚡ Actionable</span>
-                <span style="background:white; padding:4px 14px; border-radius:40px; font-size:0.75rem; font-weight:600; border:1px solid #e2e8f0;">🎯 Relevant</span>
-                <span style="background:white; padding:4px 14px; border-radius:40px; font-size:0.75rem; font-weight:600; border:1px solid #e2e8f0;">⏳ Time-bound (6 weeks)</span>
-            </div>
-        </div>
-
-        <hr />
-
-        <!-- 6. RESPONSIBLE AI & IMPACT -->
-        <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; margin:8px 0;">
-            <div>
-                <h3 style="color:#0f172a;"> Responsible AI Guardrails</h3>
-                <ul>
-                    <li><strong>Fairness:</strong> Regular bias audits – equal treatment across demographics.</li>
-                    <li><strong>Transparency:</strong> Clear explanations for every AI decision.</li>
-                    <li><strong>Compliance:</strong> Aligned with GDPR, ECOA, consumer laws.</li>
-                    <li><strong>Oversight:</strong> Human intervention for critical decisions.</li>
-                </ul>
-            </div>
-            <div>
-                <h3 style="color:#0f172a;"> Expected Business Impact</h3>
-                <ul>
-                    <li><strong>15%</strong> reduction in 30+ day delinquency (6 months).</li>
-                    <li><strong>60%</strong> of outreach actions automated – significant cost savings.</li>
-                    <li><strong>Scalable:</strong> AI allows mass personalisation without increasing headcount.</li>
-                    <li><strong>Trust:</strong> Fair, transparent outreach improves customer repayment rates.</li>
-                </ul>
-            </div>
-        </div>
-
-        <hr />
-
-        <!-- 7. SKILLS DEMONSTRATED -->
-        <h3 style="color:#0f172a;"> Skills Demonstrated</h3>
-        <div class="skills-list">
-            <span>Data Analysis (EDA)</span>
-            <span>Python (Pandas, Sklearn)</span>
-            <span>Logistic Regression</span>
-            <span>Classification Metrics</span>
-            <span>Business Strategy</span>
-            <span>SMART Framework</span>
-            <span>Responsible AI</span>
-            <span>GDPR / ECOA Compliance</span>
-            <span>Stakeholder Communication</span>
-            <span>Generative AI</span>
-        </div>
-
-        <hr />
-
-        <p style="text-align:center; color:#64748b; font-size:0.9rem;">
-            <span class="iconify icon-sm" data-icon="iconsax:check-circle-outline" style="color: var(--primary); display:inline-block; vertical-align:middle;"></span> Tata Group Simulation &nbsp;|&nbsp;
-            <span class="iconify icon-sm" data-icon="iconsax:calendar-outline" style="color: var(--primary); display:inline-block; vertical-align:middle;"></span> June 2026
-        </p>
-        <div style="text-align:center; margin-top:18px;">
-            <button class="btn-primary" onclick="closeModal('tataModal')" style="border:none; padding:10px 32px;">
-                <span class="iconify icon-sm" data-icon="iconsax:close-circle-outline"></span> Close 
+            <p style="text-align:center; color:#64748b; font-size:0.9rem;">
+                <span class="iconify icon-sm" data-icon="iconsax:check-circle-outline" style="color: var(--primary); display:inline-block; vertical-align:middle;"></span> Tata Group Simulation &nbsp;|&nbsp;
+                <span class="iconify icon-sm" data-icon="iconsax:calendar-outline" style="color: var(--primary); display:inline-block; vertical-align:middle;"></span> June 2026
+            </p>
+            <div style="text-align:center; margin-top:18px;">
                 <a href="tata_summary.pdf" download class="btn-download" style="display:inline-flex; align-items:center; gap:10px; background:var(--primary); color:#fff; padding:10px 28px; border-radius:60px; font-weight:600; text-decoration:none; margin-right:12px;">
-    <span class="iconify icon-sm" data-icon="iconsax:document-download-outline"></span> Download Summary
-</a>
-            </button>
+                    <span class="iconify icon-sm" data-icon="iconsax:document-download-outline"></span> Download Summary
+                </a>
+                <button class="btn-primary" onclick="closeModal('tataModal')" style="border:none; padding:10px 32px;">
+                    <span class="iconify icon-sm" data-icon="iconsax:close-circle-outline"></span> Close
+                </button>
+            </div>
         </div>
     </div>
-</div>
+
     <!-- ========================================================== -->
     <!-- FOOTER                                                      -->
     <!-- ========================================================== -->
