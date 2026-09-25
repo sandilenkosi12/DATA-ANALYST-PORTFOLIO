@@ -5,22 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Sandile Nkosi · Data Analyst</title>
 
-    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
-    <!-- Iconify -->
-    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
-
-    <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <!-- External CSS (optional) -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <!-- Inline fallback styles -->
     <style>
         :root {
             --primary: #4f46e5;
@@ -178,12 +168,11 @@
             box-shadow: 0 12px 30px rgba(0,0,0,0.08);
         }
         .project-card .icon {
-            width: 48px; height: 48px;
+            width: 52px; height: 52px;
             border-radius: 12px;
             background: #eef2ff;
             display: flex; align-items: center; justify-content: center;
-            color: var(--primary);
-            font-size: 1.4rem;
+            font-size: 1.6rem;
             margin-bottom: 16px;
         }
         .project-card h3 {
@@ -325,12 +314,6 @@
             font-size: 0.78rem;
             font-weight: 600;
         }
-        .highlight-box {
-            background: #f8fafc;
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 16px;
-        }
         .btn-download {
             display: inline-flex; align-items: center; gap: 8px;
             padding: 10px 22px;
@@ -422,12 +405,8 @@
                 </div>
 
                 <div class="hero-buttons">
-                    <a href="#projects" class="btn-primary">
-                        <span class="iconify" data-icon="iconsax:folder-open-outline"></span> Discover my work
-                    </a>
-                    <a href="https://www.linkedin.com/in/sandile-nkosi-90294020a/" target="_blank" class="btn-secondary">
-                        <span class="iconify" data-icon="iconsax:linkedin-outline"></span> LinkedIn
-                    </a>
+                    <a href="#projects" class="btn-primary">📂 Discover my work</a>
+                    <a href="https://www.linkedin.com/in/sandile-nkosi-90294020a/" target="_blank" class="btn-secondary">💼 LinkedIn</a>
                 </div>
             </div>
             <div class="hero-avatar">
@@ -439,20 +418,18 @@
     <!-- SKILLS -->
     <section id="skills" style="background:#fff;">
         <div class="container">
-            <h2 class="section-title">
-                <span class="iconify" data-icon="iconsax:code-outline" style="color:var(--primary);"></span> Skillset
-            </h2>
+            <h2 class="section-title">💻 Skillset</h2>
             <div class="skills-wrapper">
-                <span class="skill-pill"><span class="iconify" data-icon="iconsax:database-outline" style="color:var(--primary);"></span> SQL (PostgreSQL, Athena)</span>
-                <span class="skill-pill"><span class="iconify" data-icon="iconsax:terminal-outline" style="color:var(--primary);"></span> Python (Pandas, NumPy)</span>
-                <span class="skill-pill"><span class="iconify" data-icon="iconsax:chart-line-outline" style="color:var(--primary);"></span> Power BI</span>
-                <span class="skill-pill"><span class="iconify" data-icon="iconsax:chart-bar-outline" style="color:var(--primary);"></span> Tableau</span>
-                <span class="skill-pill"><span class="iconify" data-icon="iconsax:file-spreadsheet-outline" style="color:var(--primary);"></span> Excel (Advanced)</span>
-                <span class="skill-pill"><span class="iconify" data-icon="iconsax:cloud-outline" style="color:var(--primary);"></span> AWS (S3, Athena, Lambda)</span>
-                <span class="skill-pill"><span class="iconify" data-icon="iconsax:cloud-change-outline" style="color:var(--primary);"></span> ETL Pipelines</span>
-                <span class="skill-pill"><span class="iconify" data-icon="iconsax:git-branch-outline" style="color:var(--primary);"></span> Git / GitHub</span>
-                <span class="skill-pill"><span class="iconify" data-icon="iconsax:brain-outline" style="color:var(--primary);"></span> Machine Learning</span>
-                <span class="skill-pill"><span class="iconify" data-icon="iconsax:router-outline" style="color:var(--primary);"></span> CCNA</span>
+                <span class="skill-pill">🗄️ SQL (PostgreSQL, Athena)</span>
+                <span class="skill-pill">🐍 Python (Pandas, NumPy)</span>
+                <span class="skill-pill">📊 Power BI</span>
+                <span class="skill-pill">📈 Tableau</span>
+                <span class="skill-pill">📗 Excel (Advanced)</span>
+                <span class="skill-pill">☁️ AWS (S3, Athena, Lambda)</span>
+                <span class="skill-pill">🔁 ETL Pipelines</span>
+                <span class="skill-pill">🔧 Git / GitHub</span>
+                <span class="skill-pill">🧠 Machine Learning</span>
+                <span class="skill-pill">🌐 CCNA</span>
             </div>
         </div>
     </section>
@@ -460,79 +437,63 @@
     <!-- PROJECTS -->
     <section id="projects">
         <div class="container">
-            <h2 class="section-title">
-                <span class="iconify" data-icon="iconsax:folder-open-outline" style="color:var(--primary);"></span> Projects
-            </h2>
+            <h2 class="section-title">📁 Projects</h2>
             <div class="projects-grid">
 
                 <div class="project-card">
-                    <div class="icon"><span class="iconify" data-icon="iconsax:database-outline"></span></div>
+                    <div class="icon">🗄️</div>
                     <h3>SQL E-Commerce Analysis — Olist Dataset</h3>
                     <div class="meta">PostgreSQL · SQL · CTEs · Window Functions</div>
                     <p>Analysed 100,000+ orders from a Brazilian e-commerce marketplace. Built an 8-table schema, wrote 5 advanced SQL queries covering revenue, RFM segmentation, cohort retention, and customer lifetime value. Found that month-1 retention was under 1% across all cohorts.</p>
-                    <button class="card-btn" onclick="openModal('sqlEcomModal')">
-                        <span class="iconify" data-icon="iconsax:eye-outline"></span> View Case Study
-                    </button>
+                    <button class="card-btn" onclick="openModal('sqlEcomModal')">👁️ View Case Study</button>
                 </div>
 
                 <div class="project-card">
-                    <div class="icon"><span class="iconify" data-icon="iconsax:cloud-outline"></span></div>
+                    <div class="icon">☁️</div>
                     <h3>AWS Job Market ETL Pipeline</h3>
                     <div class="meta">Python · AWS S3 · Athena · IAM · ETL</div>
                     <p>Built an end-to-end cloud pipeline extracting 250+ data analyst job postings via API, cleaning them in Python, uploading to AWS S3, and querying with Athena. Uncovered that 90.3% of postings don't disclose salary, and SQL, Excel and Power BI dominate demand.</p>
-                    <button class="card-btn" onclick="openModal('awsEtlModal')">
-                        <span class="iconify" data-icon="iconsax:eye-outline"></span> View Case Study
-                    </button>
+                    <button class="card-btn" onclick="openModal('awsEtlModal')">👁️ View Case Study</button>
                 </div>
 
                 <div class="project-card">
-                    <div class="icon"><span class="iconify" data-icon="iconsax:chart-square-outline"></span></div>
+                    <div class="icon">📊</div>
                     <h3>Customer Churn &amp; Retention Analysis</h3>
                     <div class="meta">Python · Pandas · Power BI · Git</div>
                     <p>Analysed 779,425 retail transactions from 5,878 customers across 24 months. Built RFM segmentation identifying that Champions (22% of customers) drive 68% of revenue. Cohort analysis revealed Month-1 retention of 21.2% and flagged £1.09M in At-Risk revenue.</p>
-                    <button class="card-btn" onclick="openModal('churnModal')">
-                        <span class="iconify" data-icon="iconsax:eye-outline"></span> View Case Study
-                    </button>
+                    <button class="card-btn" onclick="openModal('churnModal')">👁️ View Case Study</button>
                 </div>
 
                 <div class="project-card">
-                    <div class="icon"><span class="iconify" data-icon="iconsax:briefcase-outline"></span></div>
+                    <div class="icon">💼</div>
                     <h3>Deloitte – Data Analytics</h3>
                     <div class="meta">Tableau · Excel · Data Labeling</div>
                     <p>Completed a Deloitte-style simulation: built an interactive Tableau dashboard, classified HR equity data, and labeled customer messages for AI training.</p>
-                    <button class="card-btn" onclick="openModal('deloitteModal')">
-                        <span class="iconify" data-icon="iconsax:eye-outline"></span> View Case Study
-                    </button>
+                    <button class="card-btn" onclick="openModal('deloitteModal')">👁️ View Case Study</button>
                 </div>
 
                 <div class="project-card">
-                    <div class="icon"><span class="iconify" data-icon="iconsax:bank-outline"></span></div>
+                    <div class="icon">🏦</div>
                     <h3>JPMorgan – Quantitative Research</h3>
                     <div class="meta">Python · Machine Learning · Financial Modeling</div>
                     <p>Built a natural gas price forecaster, valued storage contracts, and developed a credit risk model (Random Forest) to predict loan default probability and expected loss.</p>
-                    <button class="card-btn" onclick="openModal('jpmorganModal')">
-                        <span class="iconify" data-icon="iconsax:eye-outline"></span> View Case Study
-                    </button>
+                    <button class="card-btn" onclick="openModal('jpmorganModal')">👁️ View Case Study</button>
                 </div>
 
                 <div class="project-card">
-                    <div class="icon"><span class="iconify" data-icon="iconsax:airplane-outline"></span></div>
+                    <div class="icon">✈️</div>
                     <h3>British Airways – Data Science</h3>
                     <div class="meta">Python · Classification · Customer Analytics</div>
                     <p>Built models to predict lounge eligibility at Heathrow Terminal 3 and forecast customer buying behaviour, helping BA personalise offers and improve customer experience.</p>
-                    <button class="card-btn" onclick="openModal('airwaysModal')">
-                        <span class="iconify" data-icon="iconsax:eye-outline"></span> View Case Study
-                    </button>
+                    <button class="card-btn" onclick="openModal('airwaysModal')">👁️ View Case Study</button>
                 </div>
 
                 <div class="project-card">
-                    <div class="icon"><span class="iconify" data-icon="iconsax:bank-outline"></span></div>
+                    <div class="icon">🏛️</div>
                     <h3>Tata Group – AI Collections Strategy</h3>
                     <div class="meta">Python · Logistic Regression · Responsible AI</div>
                     <p>Designed an AI-driven debt collections strategy using predictive analytics, reducing predicted delinquency by 15% while ensuring GDPR/ECOA compliance and fairness.</p>
-                    <button class="card-btn" onclick="openModal('tataModal')">
-                        <span class="iconify" data-icon="iconsax:eye-outline"></span> View Case Study
-                    </button>
+                    <button class="card-btn" onclick="openModal('tataModal')">👁️ View Case Study</button>
                 </div>
 
             </div>
@@ -542,104 +503,102 @@
     <!-- CERTIFICATIONS -->
     <section id="certifications" style="background:#fff;">
         <div class="container">
-            <h2 class="section-title">
-                <span class="iconify" data-icon="iconsax:award-outline" style="color:var(--primary);"></span> Certifications &amp; Education
-            </h2>
+            <h2 class="section-title">🏆 Certifications &amp; Education</h2>
             <div class="cert-grid">
 
                 <div class="cert-item">
-                    <span class="cert-icon"><span class="iconify" data-icon="iconsax:graduation-cap-outline" style="color:var(--primary);"></span></span>
+                    <span class="cert-icon">🎓</span>
                     <div class="cert-name">National Diploma in IT</div>
                     <div class="cert-issuer">Vaal University of Technology</div>
                     <span class="cert-year">2025</span>
                 </div>
 
                 <div class="cert-item">
-                    <span class="cert-icon"><span class="iconify" data-icon="iconsax:router-outline" style="color:var(--primary);"></span></span>
+                    <span class="cert-icon">🌐</span>
                     <div class="cert-name">CCNA: Switching, Routing &amp; Wireless</div>
                     <div class="cert-issuer">Cisco</div>
                     <span class="cert-year">2021</span>
                 </div>
 
                 <div class="cert-item">
-                    <span class="cert-icon"><span class="iconify" data-icon="iconsax:router-outline" style="color:var(--primary);"></span></span>
+                    <span class="cert-icon">🌐</span>
                     <div class="cert-name">CCNA: Introduction to Networks</div>
                     <div class="cert-issuer">Cisco</div>
                     <span class="cert-year">2021</span>
                 </div>
 
                 <div class="cert-item">
-                    <span class="cert-icon"><span class="iconify" data-icon="iconsax:laptop-outline" style="color:var(--primary);"></span></span>
+                    <span class="cert-icon">💻</span>
                     <div class="cert-name">IT Essentials</div>
                     <div class="cert-issuer">Cisco</div>
                     <span class="cert-year">2020</span>
                 </div>
 
                 <div class="cert-item">
-                    <span class="cert-icon"><span class="iconify" data-icon="iconsax:cloud-outline" style="color:var(--primary);"></span></span>
+                    <span class="cert-icon">☁️</span>
                     <div class="cert-name">Machine Learning Foundations</div>
                     <div class="cert-issuer">AWS Educate</div>
                     <span class="cert-year">2023</span>
                 </div>
 
                 <div class="cert-item">
-                    <span class="cert-icon"><span class="iconify" data-icon="iconsax:cloud-outline" style="color:var(--primary);"></span></span>
+                    <span class="cert-icon">☁️</span>
                     <div class="cert-name">Cloud Computing 101</div>
                     <div class="cert-issuer">AWS Educate</div>
                     <span class="cert-year">2023</span>
                 </div>
 
                 <div class="cert-item">
-                    <span class="cert-icon"><span class="iconify" data-icon="iconsax:cloud-outline" style="color:var(--primary);"></span></span>
+                    <span class="cert-icon">☁️</span>
                     <div class="cert-name">Getting Started with Compute</div>
                     <div class="cert-issuer">AWS Educate</div>
                     <span class="cert-year">2023</span>
                 </div>
 
                 <div class="cert-item">
-                    <span class="cert-icon"><span class="iconify" data-icon="iconsax:cloud-outline" style="color:var(--primary);"></span></span>
+                    <span class="cert-icon">☁️</span>
                     <div class="cert-name">Getting Started with Serverless</div>
                     <div class="cert-issuer">AWS Educate</div>
                     <span class="cert-year">2023</span>
                 </div>
 
                 <div class="cert-item">
-                    <span class="cert-icon"><span class="iconify" data-icon="iconsax:cloud-outline" style="color:var(--primary);"></span></span>
+                    <span class="cert-icon">🔒</span>
                     <div class="cert-name">Getting Started with Security</div>
                     <div class="cert-issuer">AWS Educate</div>
                     <span class="cert-year">2023</span>
                 </div>
 
                 <div class="cert-item">
-                    <span class="cert-icon"><span class="iconify" data-icon="iconsax:cloud-outline" style="color:var(--primary);"></span></span>
+                    <span class="cert-icon">🌐</span>
                     <div class="cert-name">Web Builder</div>
                     <div class="cert-issuer">AWS Educate</div>
                     <span class="cert-year">2023</span>
                 </div>
 
                 <div class="cert-item">
-                    <span class="cert-icon"><span class="iconify" data-icon="iconsax:monitor-outline" style="color:var(--primary);"></span></span>
+                    <span class="cert-icon">🪟</span>
                     <div class="cert-name">Describe Cloud Computing</div>
                     <div class="cert-issuer">Microsoft</div>
                     <span class="cert-year">2023</span>
                 </div>
 
                 <div class="cert-item">
-                    <span class="cert-icon"><span class="iconify" data-icon="iconsax:briefcase-outline" style="color:var(--primary);"></span></span>
+                    <span class="cert-icon">💼</span>
                     <div class="cert-name">Deloitte – Data Analytics</div>
                     <div class="cert-issuer">Forage</div>
                     <span class="cert-year">2026</span>
                 </div>
 
                 <div class="cert-item">
-                    <span class="cert-icon"><span class="iconify" data-icon="iconsax:chart-line-outline" style="color:var(--primary);"></span></span>
+                    <span class="cert-icon">📈</span>
                     <div class="cert-name">JPMorgan – Quant Research</div>
                     <div class="cert-issuer">Forage</div>
                     <span class="cert-year">2026</span>
                 </div>
 
                 <div class="cert-item">
-                    <span class="cert-icon"><span class="iconify" data-icon="iconsax:robot-outline" style="color:var(--primary);"></span></span>
+                    <span class="cert-icon">🤖</span>
                     <div class="cert-name">AI Data Labeling</div>
                     <div class="cert-issuer">Forage</div>
                     <span class="cert-year">2026</span>
@@ -652,24 +611,14 @@
     <!-- CONTACT -->
     <section id="contact">
         <div class="container">
-            <h2 class="section-title">
-                <span class="iconify" data-icon="iconsax:message-outline" style="color:var(--primary);"></span> Say Hi!
-            </h2>
+            <h2 class="section-title">💬 Say Hi!</h2>
             <div class="contact-links">
-                <a href="mailto:abelnkosi2000@gmail.com">
-                    <span class="iconify" data-icon="iconsax:mail-outline" style="color:var(--primary);"></span> abelnkosi2000@gmail.com
-                </a>
-                <a href="https://www.linkedin.com/in/sandile-nkosi-90294020a/" target="_blank">
-                    <span class="iconify" data-icon="iconsax:linkedin-outline" style="color:var(--primary);"></span> LinkedIn
-                </a>
-                <a href="https://github.com/sandilenkosi12/" target="_blank">
-                    <span class="iconify" data-icon="iconsax:github-outline" style="color:var(--primary);"></span> GitHub
-                </a>
+                <a href="mailto:abelnkosi2000@gmail.com">📧 abelnkosi2000@gmail.com</a>
+                <a href="https://www.linkedin.com/in/sandile-nkosi-90294020a/" target="_blank">💼 LinkedIn</a>
+                <a href="https://github.com/sandilenkosi12/" target="_blank">🐙 GitHub</a>
             </div>
         </div>
     </section>
-
-    <!-- ===================== MODALS ===================== -->
 
     <!-- SQL E-COMMERCE MODAL -->
     <div id="sqlEcomModal" class="modal">
@@ -704,7 +653,7 @@
                 <li><strong>Schema Design:</strong> Created an 8-table PostgreSQL schema (customers, orders, order_items, payments, reviews, products, sellers, category_translation).</li>
                 <li><strong>Data Load:</strong> Imported 100,000+ orders from the Olist Brazilian e-commerce dataset via pgAdmin.</li>
                 <li><strong>Advanced SQL:</strong> Wrote 5 analytical queries using CTEs, window functions (LAG, NTILE, SUM OVER), multi-table joins and cohort date arithmetic.</li>
-                <li><strong>Business Framing:</strong> Documented findings and recommendations in a GitHub README with quantified insights.</li>
+                <li><strong>Business Framing:</strong> Documented findings and recommendations in a GitHub README.</li>
             </ul>
             <hr />
             <h3>Key Findings</h3>
@@ -729,9 +678,7 @@
             </div>
             <hr />
             <div style="text-align:center;">
-                <a href="https://github.com/sandilenkosi12/sql-ecommerce-analysis" target="_blank" class="btn-download">
-                    <span class="iconify" data-icon="iconsax:document-download-outline"></span> View Code on GitHub
-                </a>
+                <a href="https://github.com/sandilenkosi12/sql-ecommerce-analysis" target="_blank" class="btn-download">📄 View Code on GitHub</a>
             </div>
         </div>
     </div>
@@ -795,9 +742,7 @@
             </div>
             <hr />
             <div style="text-align:center;">
-                <a href="https://github.com/sandilenkosi12/aws-etl-pipeline" target="_blank" class="btn-download">
-                    <span class="iconify" data-icon="iconsax:document-download-outline"></span> View Code on GitHub
-                </a>
+                <a href="https://github.com/sandilenkosi12/aws-etl-pipeline" target="_blank" class="btn-download">📄 View Code on GitHub</a>
             </div>
         </div>
     </div>
@@ -860,9 +805,7 @@
             </div>
             <hr />
             <div style="text-align:center;">
-                <a href="https://github.com/sandilenkosi12/customer-churn-analysis" target="_blank" class="btn-download">
-                    <span class="iconify" data-icon="iconsax:document-download-outline"></span> View Code on GitHub
-                </a>
+                <a href="https://github.com/sandilenkosi12/customer-churn-analysis" target="_blank" class="btn-download">📄 View Code on GitHub</a>
             </div>
         </div>
     </div>
@@ -963,11 +906,10 @@
     <!-- FOOTER -->
     <footer>
         <div class="container">
-            <p>© 2026 Sandile Abel Nkosi &bull; Built with <span class="iconify" data-icon="iconsax:heart-outline" style="color:var(--primary);"></span> and data</p>
+            <p>© 2026 Sandile Abel Nkosi &bull; Built with 💜 and data</p>
         </div>
     </footer>
 
-    <!-- INLINE JS (modal functions) -->
     <script>
         function openModal(id) {
             var modal = document.getElementById(id);
@@ -983,7 +925,6 @@
                 document.body.style.overflow = '';
             }
         }
-        // Close on outside click
         document.querySelectorAll('.modal').forEach(function(m) {
             m.addEventListener('click', function(e) {
                 if (e.target === m) {
@@ -992,7 +933,6 @@
                 }
             });
         });
-        // Close on Escape key
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') {
                 document.querySelectorAll('.modal.active').forEach(function(m) {
