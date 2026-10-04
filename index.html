@@ -29,10 +29,8 @@
             line-height: 1.6;
             overflow-x: hidden;
         }
-        #bg-canvas { display: none; }
         .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 
-        /* NAV */
         nav {
             position: sticky; top: 0; z-index: 100;
             background: rgba(255,255,255,0.95);
@@ -57,7 +55,6 @@
             color: var(--primary) !important;
         }
 
-        /* SECTIONS */
         section { padding: 70px 0; }
         .section-title {
             font-size: 1.8rem; font-weight: 800;
@@ -66,7 +63,6 @@
             display: flex; align-items: center; gap: 12px;
         }
 
-        /* HERO */
         .hero {
             display: grid;
             grid-template-columns: 1.4fr 1fr;
@@ -130,10 +126,7 @@
             object-fit: cover;
         }
 
-        /* SKILLS */
-        .skills-wrapper {
-            display: flex; flex-wrap: wrap; gap: 10px;
-        }
+        .skills-wrapper { display: flex; flex-wrap: wrap; gap: 10px; }
         .skill-pill {
             display: inline-flex; align-items: center; gap: 8px;
             padding: 8px 16px;
@@ -144,12 +137,8 @@
             color: var(--text);
             transition: transform 0.2s, box-shadow 0.2s;
         }
-        .skill-pill:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-        }
+        .skill-pill:hover { transform: translateY(-2px); box-shadow: 0 4px 14px rgba(0,0,0,0.08); }
 
-        /* PROJECTS */
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -163,10 +152,7 @@
             transition: transform 0.2s, box-shadow 0.2s;
             display: flex; flex-direction: column;
         }
-        .project-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 12px 30px rgba(0,0,0,0.08);
-        }
+        .project-card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.08); }
         .project-card .icon {
             width: 52px; height: 52px;
             border-radius: 12px;
@@ -175,18 +161,9 @@
             font-size: 1.6rem;
             margin-bottom: 16px;
         }
-        .project-card h3 {
-            font-size: 1.1rem; color: var(--dark);
-            margin-bottom: 6px; font-weight: 700;
-        }
-        .project-card .meta {
-            font-size: 0.8rem; color: var(--primary);
-            font-weight: 600; margin-bottom: 12px;
-        }
-        .project-card p {
-            font-size: 0.9rem; color: var(--text);
-            margin-bottom: 18px; flex-grow: 1;
-        }
+        .project-card h3 { font-size: 1.1rem; color: var(--dark); margin-bottom: 6px; font-weight: 700; }
+        .project-card .meta { font-size: 0.8rem; color: var(--primary); font-weight: 600; margin-bottom: 12px; }
+        .project-card p { font-size: 0.9rem; color: var(--text); margin-bottom: 18px; flex-grow: 1; }
         .card-btn {
             display: inline-flex; align-items: center; justify-content: center; gap: 8px;
             padding: 10px 18px;
@@ -199,7 +176,6 @@
         }
         .card-btn:hover { background: #e0e7ff; }
 
-        /* CERTIFICATIONS */
         .cert-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -224,11 +200,7 @@
             background: #eef2ff; color: var(--primary);
         }
 
-        /* CONTACT */
-        .contact-links {
-            display: flex; flex-direction: column; gap: 12px;
-            max-width: 500px;
-        }
+        .contact-links { display: flex; flex-direction: column; gap: 12px; max-width: 500px; }
         .contact-links a {
             display: flex; align-items: center; gap: 12px;
             padding: 14px 20px;
@@ -240,12 +212,8 @@
             font-weight: 500;
             transition: transform 0.2s, border-color 0.2s;
         }
-        .contact-links a:hover {
-            transform: translateX(4px);
-            border-color: var(--primary);
-        }
+        .contact-links a:hover { transform: translateX(4px); border-color: var(--primary); }
 
-        /* MODALS */
         .modal {
             display: none;
             position: fixed; inset: 0;
@@ -276,36 +244,20 @@
             transition: color 0.2s;
         }
         .modal-close:hover { color: var(--dark); }
-        .modal-content h2 {
-            color: var(--dark);
-            font-size: 1.5rem; font-weight: 800;
-            margin-bottom: 6px;
-        }
-        .modal-content .sub {
-            color: var(--muted);
-            font-size: 0.85rem; margin-bottom: 20px;
-        }
-        .modal-content h3 {
-            color: var(--dark);
-            font-size: 1.05rem; font-weight: 700;
-            margin: 20px 0 10px;
-        }
-        .modal-content p, .modal-content li {
-            color: var(--text);
-            font-size: 0.92rem;
-        }
-        .modal-content ul, .modal-content ol {
-            padding-left: 22px;
-            margin: 8px 0;
-        }
+        .modal-content h2 { color: var(--dark); font-size: 1.5rem; font-weight: 800; margin-bottom: 6px; }
+        .modal-content .sub { color: var(--muted); font-size: 0.85rem; margin-bottom: 20px; }
+        .modal-content h3 { color: var(--dark); font-size: 1.05rem; font-weight: 700; margin: 20px 0 10px; }
+        .modal-content p, .modal-content li { color: var(--text); font-size: 0.92rem; }
+        .modal-content ul, .modal-content ol { padding-left: 22px; margin: 8px 0; }
         .modal-content li { margin-bottom: 6px; }
-        .modal-content hr {
-            border: none; border-top: 1px solid var(--border);
-            margin: 22px 0;
+        .modal-content hr { border: none; border-top: 1px solid var(--border); margin: 22px 0; }
+        .modal-content img {
+            width: 100%;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin: 12px 0 6px;
         }
-        .skills-list {
-            display: flex; flex-wrap: wrap; gap: 8px;
-        }
+        .skills-list { display: flex; flex-wrap: wrap; gap: 8px; }
         .skills-list span {
             padding: 6px 14px;
             background: #eef2ff;
@@ -324,8 +276,13 @@
             transition: transform 0.2s;
         }
         .btn-download:hover { transform: translateY(-2px); }
+        .highlight-box {
+            background: #f8fafc;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px;
+        }
 
-        /* FOOTER */
         footer {
             padding: 30px 20px;
             text-align: center;
@@ -335,7 +292,6 @@
             margin-top: 40px;
         }
 
-        /* RESPONSIVE */
         @media (max-width: 768px) {
             .hero { grid-template-columns: 1fr; text-align: center; }
             .hero-avatar { order: -1; }
@@ -368,7 +324,6 @@
 </head>
 <body>
 
-    <!-- NAV -->
     <nav>
         <div class="logo">Sandile<span>Nkosi</span></div>
         <div class="nav-links">
@@ -380,21 +335,13 @@
         </div>
     </nav>
 
-    <!-- HERO -->
     <section id="about">
         <div class="container hero">
             <div class="hero-text">
                 <div class="greeting">I'm Sandile Nkosi</div>
                 <h1>Data <span>Analyst</span> &amp; <span>Storyteller</span></h1>
-
                 <div class="about-description">
-                    <p>
-                        I'm a Data Analyst with a passion for turning raw data into actionable insights.
-                        I completed my <strong>Diploma in Information Technology</strong> at
-                        Vaal University of Technology (2025). I specialise in data cleaning, statistical
-                        analysis, and interactive data visualisation.
-                    </p>
-
+                    <p>I'm a Data Analyst with a passion for turning raw data into actionable insights. I completed my <strong>Diploma in Information Technology</strong> at Vaal University of Technology (2025). I specialise in data cleaning, statistical analysis, and interactive data visualisation.</p>
                     <div class="about-grid">
                         <div>
                             <h4>What I do</h4>
@@ -416,12 +363,8 @@
                             </ul>
                         </div>
                     </div>
-
-                    <p class="about-closing">
-                        <em>I believe data tells a story — my job is to find it and share it.</em>
-                    </p>
+                    <p class="about-closing"><em>I believe data tells a story — my job is to find it and share it.</em></p>
                 </div>
-
                 <div class="hero-buttons">
                     <a href="#projects" class="btn-primary">📂 Discover my work</a>
                     <a href="https://www.linkedin.com/in/sandile-nkosi-90294020a/" target="_blank" class="btn-secondary">💼 LinkedIn</a>
@@ -433,7 +376,6 @@
         </div>
     </section>
 
-    <!-- SKILLS -->
     <section id="skills" style="background:#fff;">
         <div class="container">
             <h2 class="section-title">💻 Skillset</h2>
@@ -452,7 +394,6 @@
         </div>
     </section>
 
-    <!-- PROJECTS -->
     <section id="projects">
         <div class="container">
             <h2 class="section-title">📁 Projects</h2>
@@ -518,7 +459,6 @@
         </div>
     </section>
 
-    <!-- CERTIFICATIONS -->
     <section id="certifications" style="background:#fff;">
         <div class="container">
             <h2 class="section-title">🏆 Certifications &amp; Education</h2>
@@ -530,91 +470,78 @@
                     <div class="cert-issuer">Vaal University of Technology</div>
                     <span class="cert-year">2025</span>
                 </div>
-
                 <div class="cert-item">
                     <span class="cert-icon">🌐</span>
                     <div class="cert-name">CCNA: Switching, Routing &amp; Wireless</div>
                     <div class="cert-issuer">Cisco</div>
                     <span class="cert-year">2021</span>
                 </div>
-
                 <div class="cert-item">
                     <span class="cert-icon">🌐</span>
                     <div class="cert-name">CCNA: Introduction to Networks</div>
                     <div class="cert-issuer">Cisco</div>
                     <span class="cert-year">2021</span>
                 </div>
-
                 <div class="cert-item">
                     <span class="cert-icon">💻</span>
                     <div class="cert-name">IT Essentials</div>
                     <div class="cert-issuer">Cisco</div>
                     <span class="cert-year">2020</span>
                 </div>
-
                 <div class="cert-item">
                     <span class="cert-icon">☁️</span>
                     <div class="cert-name">Machine Learning Foundations</div>
                     <div class="cert-issuer">AWS Educate</div>
                     <span class="cert-year">2023</span>
                 </div>
-
                 <div class="cert-item">
                     <span class="cert-icon">☁️</span>
                     <div class="cert-name">Cloud Computing 101</div>
                     <div class="cert-issuer">AWS Educate</div>
                     <span class="cert-year">2023</span>
                 </div>
-
                 <div class="cert-item">
                     <span class="cert-icon">☁️</span>
                     <div class="cert-name">Getting Started with Compute</div>
                     <div class="cert-issuer">AWS Educate</div>
                     <span class="cert-year">2023</span>
                 </div>
-
                 <div class="cert-item">
                     <span class="cert-icon">☁️</span>
                     <div class="cert-name">Getting Started with Serverless</div>
                     <div class="cert-issuer">AWS Educate</div>
                     <span class="cert-year">2023</span>
                 </div>
-
                 <div class="cert-item">
                     <span class="cert-icon">🔒</span>
                     <div class="cert-name">Getting Started with Security</div>
                     <div class="cert-issuer">AWS Educate</div>
                     <span class="cert-year">2023</span>
                 </div>
-
                 <div class="cert-item">
                     <span class="cert-icon">🌐</span>
                     <div class="cert-name">Web Builder</div>
                     <div class="cert-issuer">AWS Educate</div>
                     <span class="cert-year">2023</span>
                 </div>
-
                 <div class="cert-item">
                     <span class="cert-icon">🪟</span>
                     <div class="cert-name">Describe Cloud Computing</div>
                     <div class="cert-issuer">Microsoft</div>
                     <span class="cert-year">2023</span>
                 </div>
-
                 <div class="cert-item">
                     <span class="cert-icon">💼</span>
                     <div class="cert-name">Deloitte – Data Analytics</div>
                     <div class="cert-issuer">Forage</div>
                     <span class="cert-year">2026</span>
                 </div>
-
                 <div class="cert-item">
                     <span class="cert-icon">📈</span>
                     <div class="cert-name">JPMorgan – Quant Research</div>
                     <div class="cert-issuer">Forage</div>
                     <span class="cert-year">2026</span>
                 </div>
-
                 <div class="cert-item">
                     <span class="cert-icon">🤖</span>
                     <div class="cert-name">AI Data Labeling</div>
@@ -626,7 +553,6 @@
         </div>
     </section>
 
-    <!-- CONTACT -->
     <section id="contact">
         <div class="container">
             <h2 class="section-title">💬 Say Hi!</h2>
@@ -638,7 +564,7 @@
         </div>
     </section>
 
-    <!-- SQL E-COMMERCE MODAL -->
+    <!-- ==================== SQL E-COM MODAL ==================== -->
     <div id="sqlEcomModal" class="modal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeModal('sqlEcomModal')">&times;</span>
@@ -701,7 +627,7 @@
         </div>
     </div>
 
-    <!-- AWS ETL MODAL -->
+    <!-- ==================== AWS ETL MODAL ==================== -->
     <div id="awsEtlModal" class="modal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeModal('awsEtlModal')">&times;</span>
@@ -765,7 +691,7 @@
         </div>
     </div>
 
-    <!-- CHURN MODAL -->
+    <!-- ==================== CHURN MODAL (with dashboard image) ==================== -->
     <div id="churnModal" class="modal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeModal('churnModal')">&times;</span>
@@ -817,6 +743,10 @@
                 </div>
             </div>
             <hr />
+            <h3>Dashboard</h3>
+            <img src="images/churn-dashboard.jpg" alt="Customer Churn Dashboard" onerror="this.style.display='none'" />
+            <p style="font-size:0.85rem; color:#64748b; text-align:center; margin-top:6px;">Revenue by Segment · Cohort Retention · Revenue Over Time · KPI Cards</p>
+            <hr />
             <h3>Skills Demonstrated</h3>
             <div class="skills-list">
                 <span>Data Cleaning</span><span>Python (Pandas)</span><span>RFM Segmentation</span><span>Cohort Analysis</span><span>Power BI</span><span>Business Storytelling</span>
@@ -828,14 +758,24 @@
         </div>
     </div>
 
-    <!-- DELOITTE MODAL -->
+    <!-- ==================== DELOITTE MODAL (with certificate + images) ==================== -->
     <div id="deloitteModal" class="modal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeModal('deloitteModal')">&times;</span>
             <h2>Deloitte – Data Analytics Simulation</h2>
             <div class="sub">Completed: June 2026 · Forage Platform</div>
             <hr />
-            <h3>Background</h3>
+            <div class="highlight-box" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
+                <div style="display: flex; align-items: center; gap: 16px;">
+                    <span style="font-size: 1.8rem;">🏅</span>
+                    <div>
+                        <strong style="color:#0f172a;">Certificate of Completion</strong><br />
+                        <span style="font-size:0.9rem; color:#475569;">Sandile Abel Nkosi – Data Analysis &amp; Forensic Technology</span>
+                    </div>
+                </div>
+                <a href="certificate.pdf" download class="btn-download" style="margin-top: 10px;">📄 Download Certificate</a>
+            </div>
+            <h3 style="margin-top: 20px;">Case Study Summary</h3>
             <p>Worked alongside Deloitte's Data Analytics &amp; Forensic Technology team to solve real-world client challenges involving operational inefficiencies, pay equity, and AI data privacy.</p>
             <h3>My Role &amp; Approach</h3>
             <ul>
@@ -844,6 +784,15 @@
                 <li><strong>Forensic Data Labeling:</strong> Applied structured taxonomy (Intent, Sentiment, PII) to customer support messages.</li>
             </ul>
             <hr />
+            <h3>Key Deliverables</h3>
+            <img src="images/tableau_dashboard.png" alt="Tableau Dashboard" onerror="this.style.display='none'" />
+            <p style="font-size:0.85rem; color:#64748b; text-align:center; margin-top:6px;">Downtime by Factory &amp; Device Type</p>
+            <img src="images/excel_classification.png" alt="Excel Classification" onerror="this.style.display='none'" />
+            <p style="font-size:0.85rem; color:#64748b; text-align:center; margin-top:6px;">
+                Equality Score → Fair / Unfair / Highly Discriminative<br>
+                <a href="files/equality_classification.xlsx" download style="color: var(--primary); font-weight:600; text-decoration:underline; font-size:0.8rem;">📥 Download Excel File</a>
+            </p>
+            <hr />
             <h3>Skills Demonstrated</h3>
             <div class="skills-list">
                 <span>Data Analysis</span><span>Tableau</span><span>Excel</span><span>Forensic Technology</span><span>Formal Communication</span>
@@ -851,19 +800,41 @@
         </div>
     </div>
 
-    <!-- JPMORGAN MODAL -->
+    <!-- ==================== JPMORGAN MODAL (with cert + task downloads) ==================== -->
     <div id="jpmorganModal" class="modal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeModal('jpmorganModal')">&times;</span>
             <h2>JPMorgan Chase – Quantitative Research</h2>
             <div class="sub">Job Simulation · Completed: June 2026</div>
             <hr />
+            <div class="highlight-box" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
+                <div style="display: flex; align-items: center; gap: 16px;">
+                    <span style="font-size: 1.8rem;">🏅</span>
+                    <div>
+                        <strong style="color:#0f172a;">Certificate of Completion</strong><br />
+                        <span style="font-size:0.9rem; color:#475569;">Sandile Abel Nkosi – Quantitative Research</span>
+                    </div>
+                </div>
+                <a href="Quantitative rese completion_certificate.pdf" download class="btn-download" style="margin-top: 10px;">📄 Download Certificate</a>
+            </div>
+            <hr />
             <h3>Task 1: Natural Gas Price Forecasting</h3>
             <p>Built a linear regression model with linear trend and monthly seasonal dummies. Achieved MAE of ~$0.17/MMBtu.</p>
+            <div style="text-align:right; margin:6px 0 16px;">
+                <a href="JPMC_Task 1_ Answer.docx" download class="btn-download" style="padding:8px 22px; font-size:0.85rem;">📄 Download Solution</a>
+            </div>
+            <hr />
             <h3>Task 2: Commodity Storage Contract Pricing</h3>
             <p>Developed a Python pricing function simulating full contract lifecycle with inventory constraints and cost calculations.</p>
+            <div style="text-align:right; margin:6px 0 16px;">
+                <a href="JPMC_Task 2_ Answer.docx" download class="btn-download" style="padding:8px 22px; font-size:0.85rem;">📄 Download Solution</a>
+            </div>
+            <hr />
             <h3>Task 3: Credit Risk &amp; Expected Loss Prediction</h3>
             <p>Built a Random Forest classifier (AUC ~0.75–0.80) computing Expected Loss = PD × (1 − Recovery Rate) × Loan Amount.</p>
+            <div style="text-align:right; margin:6px 0 16px;">
+                <a href="JPMC_Task 3_ Answer.docx" download class="btn-download" style="padding:8px 22px; font-size:0.85rem;">📄 Download Solution</a>
+            </div>
             <hr />
             <h3>Skills Demonstrated</h3>
             <div class="skills-list">
@@ -872,17 +843,31 @@
         </div>
     </div>
 
-    <!-- BRITISH AIRWAYS MODAL -->
+    <!-- ==================== BRITISH AIRWAYS MODAL (with cert + images) ==================== -->
     <div id="airwaysModal" class="modal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeModal('airwaysModal')">&times;</span>
             <h2>British Airways – Data Science Simulation</h2>
             <div class="sub">Completed: June 2026 · Forage Platform</div>
             <hr />
+            <div class="highlight-box" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
+                <div style="display: flex; align-items: center; gap: 16px;">
+                    <span style="font-size: 1.8rem;">🏅</span>
+                    <div>
+                        <strong style="color:#0f172a;">Certificate of Completion</strong><br />
+                        <span style="font-size:0.9rem; color:#475569;">Sandile Abel Nkosi – Data Science</span>
+                    </div>
+                </div>
+                <a href="airways_certificate.pdf" download class="btn-download" style="margin-top: 10px;">📄 Download Certificate</a>
+            </div>
+            <hr />
             <h3>Task 1: Lounge Eligibility Model</h3>
             <p>Built a classification model to identify customers most likely to value lounge access at Heathrow Terminal 3.</p>
+            <img src="images/airways_lounge_model.png" alt="Lounge Eligibility Model" onerror="this.style.display='none'" />
+            <hr />
             <h3>Task 2: Customer Buying Behaviour</h3>
             <p>Developed a propensity model to predict which customers would purchase additional services.</p>
+            <img src="images/airways_behaviour_model.png" alt="Customer Buying Behaviour Model" onerror="this.style.display='none'" />
             <hr />
             <h3>Skills Demonstrated</h3>
             <div class="skills-list">
@@ -891,12 +876,23 @@
         </div>
     </div>
 
-    <!-- TATA MODAL -->
+    <!-- ==================== TATA MODAL (with cert + summary download) ==================== -->
     <div id="tataModal" class="modal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeModal('tataModal')">&times;</span>
             <h2>Tata Group – AI-Powered Collections Strategy</h2>
             <div class="sub">Data Science Simulation · June 2026</div>
+            <hr />
+            <div class="highlight-box" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
+                <div style="display: flex; align-items: center; gap: 16px;">
+                    <span style="font-size: 1.8rem;">🏅</span>
+                    <div>
+                        <strong style="color:#0f172a;">Certificate of Completion</strong><br />
+                        <span style="font-size:0.9rem; color:#475569;">Sandile Abel Nkosi – Data Analysis &amp; Forensic Technology</span>
+                    </div>
+                </div>
+                <a href="Data science_certificate.pdf" download class="btn-download" style="margin-top: 10px;">📄 Download Certificate</a>
+            </div>
             <hr />
             <h3>Business Problem</h3>
             <p>Geldium faced rising credit card delinquency rates and high operational costs from manual, reactive outreach. Goal: use predictive analytics to identify at-risk customers early.</p>
@@ -918,10 +914,13 @@
             <div class="skills-list">
                 <span>EDA</span><span>Logistic Regression</span><span>SMART Framework</span><span>Responsible AI</span><span>Stakeholder Communication</span>
             </div>
+            <hr />
+            <div style="text-align:center;">
+                <a href="tata_summary.pdf" download class="btn-download">📄 Download Summary</a>
+            </div>
         </div>
     </div>
 
-    <!-- FOOTER -->
     <footer>
         <div class="container">
             <p>© 2026 Sandile Abel Nkosi &bull; Built with 💜 and data</p>
